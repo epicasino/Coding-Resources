@@ -1,7 +1,7 @@
 body {
   background-color: #393646;
   color: #F4EEE0;
-  margin-left: 2%;
+  margin-left: 5%;
 }
 
 header > p {
@@ -27,5 +27,5 @@ a {
 }
 
 li {
-  line-height: 2em;
+  line-height: 2.5em;
 }
