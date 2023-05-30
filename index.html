@@ -1,34 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coding Resources</title>
   <!-- <link rel="stylesheet" href="./assets/css/meyerwebreset.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <h1>Coding Resources</h1>
-      <a></a>
-    </nav>
-    <p>Hello friends! Feel free to use this GitPages website to access links and resources provided by our TAs and fellow classmates in one website!</p>
-  </header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Coding Resources</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sections
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#markdown">Markdown</a></li>
+              <li><a class="dropdown-item" href="#command-line">Command Line</a></li>
+              <li><a class="dropdown-item" href="#HTML">HTML</a></li>
+              <li><a class="dropdown-item" href="#CSS">CSS</a></li>
+              <li><a class="dropdown-item" href="#JS">JavaScript</a></li>
+              <li><a class="dropdown-item" href="#WebAPI">WebAPI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#stock-images">Stock Images</a></li>
+              <li><a class="dropdown-item" href="#color-tools">Color Tools</a></li>
+              <li><a class="dropdown-item" href="#validators">Validators</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <p class="d-flex justify-content-center mx-auto p-5 text-center fs-3 ">
+    Hello friends! Feel free to use this GitPages website to access links and resources provided by our TAs and fellow classmates in one website!</p>
   
-  <main id="link-block">
-    <section class="markdown">
-    <h2>Markdown</h2>
-    <ul>
-      <li><a href="https://www.markdownguide.org/basic-syntax" target="_blank">Basic Markdown Syntax</a></li>
-      <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide" target="_blank">Professional Readme Guide</a></li>
-      <li><a href="./assets/markdown/README-template.md" target="_blank">Professional README Template</a></li>
-    </ul>
+  <main id="link-block" class="ms-5">
+    <section id="markdown">
+      <h2>Markdown</h2>
+      <ul>
+        <li><a href="https://www.markdownguide.org/basic-syntax" target="_blank">Basic Markdown Syntax</a></li>
+        <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide"
+            target="_blank">Professional Readme Guide</a></li>
+        <li><a href="./assets/markdown/README-template.md" target="_blank">Professional README Template</a></li>
+      </ul>
     </section>
 
-  <section class="command-line">
+  <section id="command-line">
+
     <h2>Command Line</h2>
     <ul>
       <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands" target="_blank">Basic Terminal Commands</a></li>
@@ -38,7 +67,7 @@
     
   </section>
   
-  <section class="HTML">
+  <section id="HTML">
     <h2>HTML</h2>
     <ul>
       <li><a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">HTML Block & Inline elements</a></li>
@@ -54,7 +83,7 @@
     </ul>
   </section>
 
-  <section class="CSS">
+  <section id="CSS">
     <h2>CSS</h2>
     <ul>
       <h3>CSS Basics</h3>
@@ -97,7 +126,7 @@
     </ul>
   </section>
   
-  <section class="JS">
+  <section id="JS">
     <h2>JS</h2>
     <ul>
       <h3>Functions</h3>
@@ -157,7 +186,7 @@
     </ul>
   </section>
     
-  <section class="WebAPI">
+  <section id="WebAPI">
     <h2>WebAPI</h2>
     <ul>
       <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" target="_blank">Intro To JS Events</a></li>
@@ -185,7 +214,7 @@
     <!-- <li><a href="" target="_blank"></a></li> -->
   </section>
     
-    <section class="stock-images">
+    <section id="stock-images">
       <h2>Stock Images</h2>
       <ul>
         <li><a href="https://www.pexels.com/" target="_blank">Pexels.com</a></li>
@@ -196,7 +225,7 @@
   
   </section>
 
-  <section class="Color Tools">
+  <section id="color-tools">
     <h2>Color Tools</h2>
     <ul>
       <li><a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">HTML Color Picker</a></li>
@@ -205,7 +234,7 @@
       <!-- <li><a href="" target="_blank"></a></li> -->
     </ul>
   
-  <section class="validators">
+  <section id="validators">
     <h2>Validators</h2>
     <ul>
       <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
@@ -214,6 +243,8 @@
 
   </section>
   </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
