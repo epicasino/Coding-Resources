@@ -12,6 +12,7 @@
 </head>
 
 <body>
+  <!-- Navbar  -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
       <a class="navbar-brand fs-2" href="#">Coding Resources</a>
@@ -19,6 +20,7 @@
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+      <!-- Sections Dropdown -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item dropdown">
@@ -26,19 +28,25 @@
               Sections
             </a>
             <ul class="dropdown-menu">
+              <!-- Dropdown Menu List -->
               <li><a class="dropdown-item" href="#markdown">Markdown</a></li>
               <li><a class="dropdown-item" href="#command-line">Command Line</a></li>
               <li><a class="dropdown-item" href="#HTML">HTML</a></li>
               <li><a class="dropdown-item" href="#CSS">CSS</a></li>
               <li><a class="dropdown-item" href="#JS">JavaScript</a></li>
               <li><a class="dropdown-item" href="#WebAPI">WebAPI</a></li>
+              <li><a class="dropdown-item" href="#jQueryAPI">jQuery</a></li>
+              <li><a class="dropdown-item" href="#bootstrap">Bootstrap</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#stock-images">Stock Images</a></li>
               <li><a class="dropdown-item" href="#color-tools">Color Tools</a></li>
               <li><a class="dropdown-item" href="#validators">Validators</a></li>
+              <!-- <li><a class="dropdown-item" href="#"></a></li> -->
             </ul>
           </li>
         </ul>
+        <!-- Todo: Opens all Dropdowns Below -->
+        <!-- <button id="open-dropdowns" class="btn btn-success" type="button">Cascade Windows</button> -->
       </div>
 
       <!-- To-do: build search-bar -->
@@ -52,29 +60,30 @@
   <p class="d-flex justify-content-center mx-auto p-5 text-center fs-3 ">
     Hello friends! Feel free to use this GitPages website to access links and resources provided by our TAs and fellow classmates in one website!</p>
   
-  <main id="link-block" class="mx-5">
+<main id="link-block" class="mx-5">
 
-    <section id="markdown">
-      <p>
-        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarkdown"
+  <!-- Markdown Dropdown -->
+  <section id="markdown">
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarkdown"
           aria-expanded="false" aria-controls="collapseMarkdown">
           <h2>Markdown</h2>
-        </button>
-      </p>
-      <div class="collapse" id="collapseMarkdown">
-        <div class="card card-body mx-auto">
-          <ul>
-            <li><a href="https://www.markdownguide.org/basic-syntax" target="_blank">Basic Markdown Syntax</a></li>
-            <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide"
+      </button>
+    </p>
+    <div class="collapse" id="collapseMarkdown">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://www.markdownguide.org/basic-syntax" target="_blank">Basic Markdown Syntax</a></li>
+          <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide"
                 target="_blank">Professional Readme Guide</a></li>
-            <li><a href="./assets/markdown/README-template.md" target="_blank">Professional README Template</a></li>
-          </ul>
-        </div>
+          <li><a href="./assets/markdown/README-template.md" target="_blank">Professional README Template</a></li>
+        </ul>
       </div>
-    </section>
+    </div>
+  </section>
 
 
-
+  <!-- Command Line Dropdown -->
   <section id="command-line">
     <p>
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCommandLine" aria-expanded="false"
@@ -94,6 +103,7 @@
 
   </section>
   
+  <!-- HTML Dropdown -->
   <section id="HTML">
     <p>
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHTML"
@@ -120,6 +130,7 @@
 
   </section>
 
+  <!-- CSS Dropdown -->
   <section id="CSS">
 
     <p>
@@ -130,50 +141,116 @@
     </p>
     <div class="collapse" id="collapseCSS">
       <div class="card card-body mx-auto">
-        <ul>
-          <h3>CSS Basics</h3>
-          <li><a href="https://robdodson.me/posts/css-semantics/" target="_blank">CSS Semantics</a></li>
-          <li><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">CSS Positioning</a></li>
-          <li><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">CSS Box Model</a></li>
-          <li><a href="https://cssreference.io/typography/" target="_blank">CSS Typography</a></li>
-          <li><a href="https://www.w3.org/Style/Examples/007/units.en.html" target="_blank">px, em, % sizings</a></li>
-          <li><a href="https://wireframe.cc/" target="_blank">Wireframe website</a></li>
-          <h3>CSS Reset Files</h3>
-          <li><a href="./assets/css/ucsdreset.css" target="_blank">UCSD reset.css file</a></li>
-          <li><a href="./assets/css/meyerwebreset.css" target="_blank">meyerweb reset.css file</a></li>
+        <!-- CSS Basics -->
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCSSBasics"
+            aria-expanded="false" aria-controls="collapse">
+            <h3>CSS Basics</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseCSSBasics">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://robdodson.me/posts/css-semantics/" target="_blank">CSS Semantics</a></li>
+              <li><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">CSS Positioning</a></li>
+              <li><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">CSS Box Model</a></li>
+              <li><a href="https://cssreference.io/typography/" target="_blank">CSS Typography</a></li>
+              <li><a href="https://www.w3.org/Style/Examples/007/units.en.html" target="_blank">px, em, % sizings</a></li>
+              <li><a href="https://wireframe.cc/" target="_blank">Wireframe website</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
+
+          <!-- CSS Reset Files -->
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCSSReset" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>CSS Reset Files</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseCSSReset">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="./assets/css/ucsdreset.css" target="_blank">UCSD reset.css file</a></li>
+              <li><a href="./assets/css/meyerwebreset.css" target="_blank">meyerweb reset.css file</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
+
+          <!-- CSS Flexbox -->
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFlexbox" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>CSS Flexbox</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseFlexbox">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Guide to Flexbox</a></li>
+              <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Guide to CSS Grid</a></li>
+              <li><a href="./assets/images/css-snippet-cheatsheet.png" target="_blank">CSS Snippet Cheatsheet</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
           
-          <h3>CSS Flexbox</h3>
-          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Guide to Flexbox</a></li>
-          <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Guide to CSS Grid</a></li>
-          <li><a href="./assets/images/css-snippet-cheatsheet.png" target="_blank">CSS Snippet Cheatsheet</a></li>
-          
-          <h3>Advanced CSS</h3>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes" target="_blank">CSS Fancy Boxes</a></li>
-          <li><a href="https://cssgrid-generator.netlify.app/" target="_blank">CSS Grid Generator</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">Attribute Selectors</a></li>
-          <li><a href="https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile"
-              target="_blank">Media Query</a></li>
-          <li><a href="https://www.w3schools.com/howto/howto_css_cards.asp" target="_blank">Create CSS cards</a></li>
-          <li><a href="https://www.w3schools.com/cssref/css_entities.php" target="_blank">CSS Entities</a></li>
-          <li><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">CSS Transitions</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">Pseudo-classes</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Pseudo-elements</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">Border-Radius</a></li>
-          <li><a href="https://www.w3schools.com/cssref/pr_class_visibility.php" target="_blank">Visibility Property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank">cursor: pointer</a></li>
-          
-          
-          <h3>CSS Games</h3>
-          <li><a href="https://flexboxfroggy.com/" target="_blank">CSS Flexbox Froggy</a></li>
-          <li><a href="https://cssgridgarden.com/" target="_blank">CSS Grid Garden</a></li>
-          <li><a href="https://flukeout.github.io/" target="_blank">CSS Diner</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
-        </ul>
+          <!-- Advanced CSS -->
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCSSAdv" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Advanced CSS</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseCSSAdv">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes" target="_blank">CSS Fancy
+                  Boxes</a></li>
+              <li><a href="https://cssgrid-generator.netlify.app/" target="_blank">CSS Grid Generator</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">Attribute
+                  Selectors</a></li>
+              <li><a href="https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile"
+                  target="_blank">Media Query</a></li>
+              <li><a href="https://www.w3schools.com/howto/howto_css_cards.asp" target="_blank">Create CSS cards</a></li>
+              <li><a href="https://www.w3schools.com/cssref/css_entities.php" target="_blank">CSS Entities</a></li>
+              <li><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">CSS Transitions</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">Pseudo-classes</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Pseudo-elements</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">Border-Radius</a></li>
+              <li><a href="https://www.w3schools.com/cssref/pr_class_visibility.php" target="_blank">Visibility Property</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank">cursor: pointer</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
+
+          <!-- CSS Games  -->
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCSSGames" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>CSS Games</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseCSSGames">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://flexboxfroggy.com/" target="_blank">CSS Flexbox Froggy</a></li>
+              <li><a href="https://cssgridgarden.com/" target="_blank">CSS Grid Garden</a></li>
+              <li><a href="https://flukeout.github.io/" target="_blank">CSS Diner</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
+        
       </div>
     </div>
 
   </section>
   
+  <!-- JS Dropdown -->
   <section id="JS">
     <p>
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJS" aria-expanded="false"
@@ -183,96 +260,186 @@
     </p>
     <div class="collapse" id="collapseJS">
       <div class="card card-body mx-auto">
-        <ul>
-          <h3>Functions</h3>
-          <li><a href="https://www.w3schools.com/js/js_function_parameters.asp" target="_blank">JS Function Parameters</a></li>
-          <li><a
-              href="https://stackoverflow.com/questions/35936365/what-exactly-is-the-parameter-e-event-and-why-pass-it-to-javascript-functions"
-              target="_blank">Why is it function (event)?</a></li>
-          <li><a href="https://www.w3schools.com/js/js_switch.asp" target="_blank">JavaScript switch function</a></li>
-          <li><a
-              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions?retiredLocale=vi"
-              target="_blank">Arrow Function Expressions (mozilla)</a></li>
-          <li><a href="https://www.w3schools.com/Js/js_arrow_function.asp" target="_blank">Arrow Function Expressions (w3)</a>
-          </li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator"
-              target="_blank">Ternary Operator</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat"
-              target="_blank">parse float function</a></li>
-          <li><a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">for () loop function</a></li>
-          <li><a href="https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript"
-              target="_blank">Generate random string/characters in JavaScript</a></li>
+        
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJSFunctions" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Functions</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseJSFunctions">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://www.w3schools.com/js/js_function_parameters.asp" target="_blank">JS Function Parameters</a></li>
+              <li><a
+                  href="https://stackoverflow.com/questions/35936365/what-exactly-is-the-parameter-e-event-and-why-pass-it-to-javascript-functions"
+                  target="_blank">Why is it function (event)?</a></li>
+              <li><a href="https://www.w3schools.com/js/js_switch.asp" target="_blank">JavaScript switch function</a></li>
+              <li><a
+                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions?retiredLocale=vi"
+                  target="_blank">Arrow Function Expressions (mozilla)</a></li>
+              <li><a href="https://www.w3schools.com/Js/js_arrow_function.asp" target="_blank">Arrow Function Expressions (w3)</a>
+              </li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator"
+                  target="_blank">Ternary Operator</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat"
+                  target="_blank">parse float function</a></li>
+              <li><a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">for () loop function</a></li>
+              <li><a href="https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript"
+                  target="_blank">Generate random string/characters in JavaScript</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseArrays" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Arrays</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseArrays">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://www.w3schools.com/jsref/jsref_split.asp" target="_blank">string.split()</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+                  target="_blank">string.splice()</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMath" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Math</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseMath">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank">Math
+                  functions</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil"
+                  target="_blank">Math.ceil() method</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
           
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMethods" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Methods</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseMethods">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+                  target="_blank">find() method</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
+                  target="_blank">Object.keys() method</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">Map
+                  object</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
+                  target="_blank">.toUpperCase() method</a></li>
+              <li><a href="https://www.w3schools.com/java/ref_string_charat.asp" target="_blank">.charAt() Method</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
           
-          <h3>Arrays</h3>
-          <li><a href="https://www.w3schools.com/jsref/jsref_split.asp" target="_blank">string.split()</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
-              target="_blank">string.splice()</a></li>
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWindow" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Window</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseWindow">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt" target="_blank">window.prompt()</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm" target="_blank">window.confirm()</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/alert" target="_blank">window.alert()</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStatements" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Statements</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseStatements">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" target="_blank">while
+                  loop statement</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for" target="_blank">for loop
+                  statement</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
           
-          
-          <h3>Math</h3>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank">Math
-              functions</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil"
-              target="_blank">Math.ceil() method</a></li>
-          
-          <h3>Methods</h3>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
-              target="_blank">find() method</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
-              target="_blank">Object.keys() method</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">Map
-              object</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
-              target="_blank">.toUpperCase() method</a></li>
-          <li><a href="https://www.w3schools.com/java/ref_string_charat.asp" target="_blank">.charAt() Method</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
-          
-          
-          <h3>Window</h3>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt" target="_blank">window.prompt()</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm" target="_blank">window.confirm()</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/alert" target="_blank">window.alert()</a></li>
-          
-          <h3>Statements</h3>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" target="_blank">while
-              loop statement</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for" target="_blank">for loop
-              statement</a></li>
-          
-          
-          <h3>Operators</h3>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment"
-              target="_blank">Increment (++)</a></li>
-          
-          <h3>DOM</h3>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document" target="_blank">Document (DOM TREE)</a></li>
-          <li><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp"
-              target="_blank">document.getElementByID()</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll"
-              target="_blank">document.querySelectorAll()</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector"
-              target="_blank">document.querySelector()</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute"
-              target="_blank">element.setAttribute()</a></li>
-          <li><a href="https://www.w3schools.com/jsref/met_node_appendchild.asp" target="_blank">appendChild() (w3)</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild" target="_blank">appendChild()
-              (mozilla)</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent()
-              property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement" target="_blank">createElement()
-              method</a></li>
-          <li><a href="https://www.tutorialspoint.com/How-to-check-whether-a-checkbox-is-checked-in-JavaScript"
-              target="_blank">check whether a checkbox is checked in JS</a></li>
-        </ul>
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOperators" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Operators</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseOperators">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment"
+                  target="_blank">Increment (++)</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDOM" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>DOM</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapseDOM">
+          <div class="card card-body mx-auto">
+            <ul>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document" target="_blank">Document (DOM TREE)</a></li>
+              <li><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp"
+                  target="_blank">document.getElementByID()</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll"
+                  target="_blank">document.querySelectorAll()</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector"
+                  target="_blank">document.querySelector()</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute"
+                  target="_blank">element.setAttribute()</a></li>
+              <li><a href="https://www.w3schools.com/jsref/met_node_appendchild.asp" target="_blank">appendChild() (w3)</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild" target="_blank">appendChild()
+                  (mozilla)</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent()
+                  property</a></li>
+              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement" target="_blank">createElement()
+                  method</a></li>
+              <li><a href="https://www.tutorialspoint.com/How-to-check-whether-a-checkbox-is-checked-in-JavaScript"
+                  target="_blank">check whether a checkbox is checked in JS</a></li>
+              <!-- <li><a href="" target="_blank"></a></li> -->
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </section>
-    
+  
+  <!-- WebAPI Dropdown -->
   <section id="WebAPI">
     <p>
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWebAPI"
-        aria-expanded="false" aria-controls="collapseWebAPI">
+        aria-expanded="false" aria-controls="collapse">
         <h2>WebAPI</h2>
       </button>
     </p>
@@ -304,7 +471,57 @@
         </ul>
       </div>
   </section>
-    
+  
+  <!-- jQuery Dropdown -->
+  <section id="jQueryAPI">
+  
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJQuery"
+        aria-expanded="false" aria-controls="collapse">
+        <h2>jQuery</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseJQuery">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://releases.jquery.com/" target="_blank">jQuery CDN Versions</a></li>
+          <li><a href="https://api.jquery.com/" target="_blank">jQuery API Documentation</a></li>
+          <li><a href="https://www.w3schools.com/jquery/default.asp" target="_blank">w3schools jQuery Tutorial</a></li>
+          <li><a href="./assets/js/code examples/basic-jquery-shorthand.js" target="_blank">jQuery Shorthand Code Snippet</a></li>
+          <li><a href="./assets/js/code examples/jquery-click-event.js" target="_blank">jQuery Click Event Code Snippet</a></li>
+          <li><a href="./assets/js/code examples/jquery-event-delegation.js" target="_blank">jQuery Event Delegation Code Snippet</a></li>
+          <li><a href="./assets/js/code examples/jquery-forms.js" target="_blank">jQuery Forms Code Snippet</a></li>
+        </ul>
+      </div>
+    </div>
+  
+  </section>
+
+  <!-- Bootstrap Dropdown -->
+  <section id="bootstrap">
+  
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBootstrap" aria-expanded="false"
+        aria-controls="collapse">
+        <h2>Bootstrap</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseBootstrap">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start" target="_blank">Bootstrap Quick Start (Docs)</a></li>
+          <li><a href="https://getbootstrap.com/docs/5.3/examples/" target="_blank">Functional Bootstrap Example Code</a></li>
+
+          <li><a href="https://getbootstrap.com/docs/5.3/components/collapse/" target="_blank">Collapse component</a></li>
+          
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
+    </div>
+  
+  </section>
+
+  <!-- Stock Images Dropdown -->
   <section id="stock-images">
     
     <p>
@@ -326,6 +543,7 @@
   
   </section>
 
+  <!-- Color Tools Dropdown -->
   <section id="color-tools">
     
     <p>
@@ -367,7 +585,23 @@
 
 </main>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<footer>
+  <!-- Footer Card -->
+  <div class="card text-center mt-5">
+    <h5 class="card-header">Coding Resources</h5>
+    <div class="card-body">
+      <h5 class="card-title">Made with ❤️ By:</h5>
+      <p class="card-text fs-4">Ray (Epicasino)</p>
+      <a href="https://github.com/epicasino" target="_blank" class="btn btn-primary">Github</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
+  crossorigin="anonymous"></script>
+<!-- Own JS Script -->
+<script src="./assets/js/script.js"></script>
 </body>
 
 </html>
@@ -385,6 +619,22 @@
   <div class="card card-body mx-auto">
     <ul>
       
+      <li><a href="" target="_blank"></a></li>
+    </ul>
+  </div>
+</div> -->
+
+<!-- Collapsing Content Box (Subsections) -->
+
+<!-- <p>
+  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse" aria-expanded="false"
+    aria-controls="collapse">
+    <h3></h3>
+  </button>
+</p>
+<div class="collapse" id="collapse">
+  <div class="card card-body mx-auto">
+    <ul>
       <li><a href="" target="_blank"></a></li>
     </ul>
   </div>
