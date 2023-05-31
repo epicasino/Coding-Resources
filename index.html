@@ -1,219 +1,391 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Coding Resources</title>
   <!-- <link rel="stylesheet" href="./assets/css/meyerwebreset.css"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <h1>Coding Resources</h1>
-      <a></a>
-    </nav>
-    <p>Hello friends! Feel free to use this GitPages website to access links and resources provided by our TAs and fellow classmates in one website!</p>
-  </header>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand fs-2" href="#">Coding Resources</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Sections
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#markdown">Markdown</a></li>
+              <li><a class="dropdown-item" href="#command-line">Command Line</a></li>
+              <li><a class="dropdown-item" href="#HTML">HTML</a></li>
+              <li><a class="dropdown-item" href="#CSS">CSS</a></li>
+              <li><a class="dropdown-item" href="#JS">JavaScript</a></li>
+              <li><a class="dropdown-item" href="#WebAPI">WebAPI</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#stock-images">Stock Images</a></li>
+              <li><a class="dropdown-item" href="#color-tools">Color Tools</a></li>
+              <li><a class="dropdown-item" href="#validators">Validators</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+      <!-- To-do: build search-bar -->
+      <!-- <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+
+    </div>
+  </nav>
+  <p class="d-flex justify-content-center mx-auto p-5 text-center fs-3 ">
+    Hello friends! Feel free to use this GitPages website to access links and resources provided by our TAs and fellow classmates in one website!</p>
   
-  <main id="link-block">
-    <section class="markdown">
-    <h2>Markdown</h2>
-    <ul>
-      <li><a href="https://www.markdownguide.org/basic-syntax" target="_blank">Basic Markdown Syntax</a></li>
-      <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide" target="_blank">Professional Readme Guide</a></li>
-      <li><a href="./assets/markdown/README-template.md" target="_blank">Professional README Template</a></li>
-    </ul>
+  <main id="link-block" class="mx-5">
+
+    <section id="markdown">
+      <p>
+        <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseMarkdown"
+          aria-expanded="false" aria-controls="collapseMarkdown">
+          <h2>Markdown</h2>
+        </button>
+      </p>
+      <div class="collapse" id="collapseMarkdown">
+        <div class="card card-body mx-auto">
+          <ul>
+            <li><a href="https://www.markdownguide.org/basic-syntax" target="_blank">Basic Markdown Syntax</a></li>
+            <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide"
+                target="_blank">Professional Readme Guide</a></li>
+            <li><a href="./assets/markdown/README-template.md" target="_blank">Professional README Template</a></li>
+          </ul>
+        </div>
+      </div>
     </section>
 
-  <section class="command-line">
-    <h2>Command Line</h2>
-    <ul>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands" target="_blank">Basic Terminal Commands</a></li>
-      <li><a href="https://phoenixnap.com/kb/linux-alias-command" target="_blank">Linux alias command</a></li>
-      <!-- <li><a href="" target="_blank"></a></li> -->
-    </ul>
+
+
+  <section id="command-line">
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCommandLine" aria-expanded="false"
+        aria-controls="collapseCommandLine">
+        <h2>Command Line</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseCommandLine">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands" target="_blank">Basic Terminal Commands</a></li>
+          <li><a href="https://phoenixnap.com/kb/linux-alias-command" target="_blank">Linux alias command</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
+    </div>
+
+  </section>
+  
+  <section id="HTML">
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHTML"
+        aria-expanded="false" aria-controls="collapseHTML">
+        <h2>HTML</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseHTML">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">HTML Block & Inline elements</a></li>
+          <li><a href="https://web.dev/learn/html/semantic-html/" target="_blank">Semantic HTML</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" target="_blank">Figure Caption Tag</a></li>
+          <li><a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms Tag</a></li>
+          <li><a href="https://www.delftstack.com/howto/html/html-code-block/" target="_blank">HTML Code Block</a></li>
+          <li><a href="https://www.w3schools.com/tags/tag_button.asp" target="_blank">button tag</a></li>
+          <li><a href="https://www.w3schools.com/TAGS/att_script_src.asp" target="_blank">script attribute for JS</a></li>
+          <li><a href="https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/" target="_blank">div vs span tags</a></li>
+          <li><a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">HTML input tag</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="CSS">
+
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCSS" aria-expanded="false"
+        aria-controls="collapseCSS">
+        <h2>CSS</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseCSS">
+      <div class="card card-body mx-auto">
+        <ul>
+          <h3>CSS Basics</h3>
+          <li><a href="https://robdodson.me/posts/css-semantics/" target="_blank">CSS Semantics</a></li>
+          <li><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">CSS Positioning</a></li>
+          <li><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">CSS Box Model</a></li>
+          <li><a href="https://cssreference.io/typography/" target="_blank">CSS Typography</a></li>
+          <li><a href="https://www.w3.org/Style/Examples/007/units.en.html" target="_blank">px, em, % sizings</a></li>
+          <li><a href="https://wireframe.cc/" target="_blank">Wireframe website</a></li>
+          <h3>CSS Reset Files</h3>
+          <li><a href="./assets/css/ucsdreset.css" target="_blank">UCSD reset.css file</a></li>
+          <li><a href="./assets/css/meyerwebreset.css" target="_blank">meyerweb reset.css file</a></li>
+          
+          <h3>CSS Flexbox</h3>
+          <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Guide to Flexbox</a></li>
+          <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Guide to CSS Grid</a></li>
+          <li><a href="./assets/images/css-snippet-cheatsheet.png" target="_blank">CSS Snippet Cheatsheet</a></li>
+          
+          <h3>Advanced CSS</h3>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes" target="_blank">CSS Fancy Boxes</a></li>
+          <li><a href="https://cssgrid-generator.netlify.app/" target="_blank">CSS Grid Generator</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">Attribute Selectors</a></li>
+          <li><a href="https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile"
+              target="_blank">Media Query</a></li>
+          <li><a href="https://www.w3schools.com/howto/howto_css_cards.asp" target="_blank">Create CSS cards</a></li>
+          <li><a href="https://www.w3schools.com/cssref/css_entities.php" target="_blank">CSS Entities</a></li>
+          <li><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">CSS Transitions</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">Pseudo-classes</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Pseudo-elements</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">Border-Radius</a></li>
+          <li><a href="https://www.w3schools.com/cssref/pr_class_visibility.php" target="_blank">Visibility Property</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank">cursor: pointer</a></li>
+          
+          
+          <h3>CSS Games</h3>
+          <li><a href="https://flexboxfroggy.com/" target="_blank">CSS Flexbox Froggy</a></li>
+          <li><a href="https://cssgridgarden.com/" target="_blank">CSS Grid Garden</a></li>
+          <li><a href="https://flukeout.github.io/" target="_blank">CSS Diner</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
+    </div>
+
+  </section>
+  
+  <section id="JS">
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseJS" aria-expanded="false"
+        aria-controls="collapseJS">
+        <h2>JS</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseJS">
+      <div class="card card-body mx-auto">
+        <ul>
+          <h3>Functions</h3>
+          <li><a href="https://www.w3schools.com/js/js_function_parameters.asp" target="_blank">JS Function Parameters</a></li>
+          <li><a
+              href="https://stackoverflow.com/questions/35936365/what-exactly-is-the-parameter-e-event-and-why-pass-it-to-javascript-functions"
+              target="_blank">Why is it function (event)?</a></li>
+          <li><a href="https://www.w3schools.com/js/js_switch.asp" target="_blank">JavaScript switch function</a></li>
+          <li><a
+              href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions?retiredLocale=vi"
+              target="_blank">Arrow Function Expressions (mozilla)</a></li>
+          <li><a href="https://www.w3schools.com/Js/js_arrow_function.asp" target="_blank">Arrow Function Expressions (w3)</a>
+          </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator"
+              target="_blank">Ternary Operator</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat"
+              target="_blank">parse float function</a></li>
+          <li><a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">for () loop function</a></li>
+          <li><a href="https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript"
+              target="_blank">Generate random string/characters in JavaScript</a></li>
+          
+          
+          <h3>Arrays</h3>
+          <li><a href="https://www.w3schools.com/jsref/jsref_split.asp" target="_blank">string.split()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+              target="_blank">string.splice()</a></li>
+          
+          
+          <h3>Math</h3>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank">Math
+              functions</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil"
+              target="_blank">Math.ceil() method</a></li>
+          
+          <h3>Methods</h3>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+              target="_blank">find() method</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
+              target="_blank">Object.keys() method</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">Map
+              object</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
+              target="_blank">.toUpperCase() method</a></li>
+          <li><a href="https://www.w3schools.com/java/ref_string_charat.asp" target="_blank">.charAt() Method</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+          
+          
+          <h3>Window</h3>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt" target="_blank">window.prompt()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm" target="_blank">window.confirm()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/alert" target="_blank">window.alert()</a></li>
+          
+          <h3>Statements</h3>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" target="_blank">while
+              loop statement</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for" target="_blank">for loop
+              statement</a></li>
+          
+          
+          <h3>Operators</h3>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment"
+              target="_blank">Increment (++)</a></li>
+          
+          <h3>DOM</h3>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document" target="_blank">Document (DOM TREE)</a></li>
+          <li><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp"
+              target="_blank">document.getElementByID()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll"
+              target="_blank">document.querySelectorAll()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector"
+              target="_blank">document.querySelector()</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute"
+              target="_blank">element.setAttribute()</a></li>
+          <li><a href="https://www.w3schools.com/jsref/met_node_appendchild.asp" target="_blank">appendChild() (w3)</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild" target="_blank">appendChild()
+              (mozilla)</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent()
+              property</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement" target="_blank">createElement()
+              method</a></li>
+          <li><a href="https://www.tutorialspoint.com/How-to-check-whether-a-checkbox-is-checked-in-JavaScript"
+              target="_blank">check whether a checkbox is checked in JS</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
     
-  </section>
-  
-  <section class="HTML">
-    <h2>HTML</h2>
-    <ul>
-      <li><a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">HTML Block & Inline elements</a></li>
-      <li><a href="https://web.dev/learn/html/semantic-html/" target="_blank">Semantic HTML</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" target="_blank">Figure Caption Tag</a></li>
-      <li><a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms Tag</a></li>
-      <li><a href="https://www.delftstack.com/howto/html/html-code-block/" target="_blank">HTML Code Block</a></li>
-      <li><a href="https://www.w3schools.com/tags/tag_button.asp" target="_blank">button tag</a></li>
-      <li><a href="https://www.w3schools.com/TAGS/att_script_src.asp" target="_blank">script attribute for JS</a></li>
-      <li><a href="https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/" target="_blank">div vs span tags</a></li>
-      <li><a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">HTML input tag</a></li>
-      <!-- <li><a href="" target="_blank"></a></li> -->
-    </ul>
-  </section>
-
-  <section class="CSS">
-    <h2>CSS</h2>
-    <ul>
-      <h3>CSS Basics</h3>
-      <li><a href="https://robdodson.me/posts/css-semantics/" target="_blank">CSS Semantics</a></li>
-      <li><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">CSS Positioning</a></li>
-      <li><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">CSS Box Model</a></li>
-      <li><a href="https://cssreference.io/typography/" target="_blank">CSS Typography</a></li>
-      <li><a href="https://www.w3.org/Style/Examples/007/units.en.html" target="_blank">px, em, % sizings</a></li>
-      <li><a href="https://wireframe.cc/" target="_blank">Wireframe website</a></li>
-      
-      <h3>CSS Reset Files</h3>
-        <li><a href="./assets/css/ucsdreset.css" target="_blank">UCSD reset.css file</a></li>
-        <li><a href="./assets/css/meyerwebreset.css" target="_blank">meyerweb reset.css file</a></li>
-        
-        <h3>CSS Flexbox</h3>
-        <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Guide to Flexbox</a></li>
-        <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Guide to CSS Grid</a></li>
-        <li><a href="./assets/images/css-snippet-cheatsheet.png" target="_blank">CSS Snippet Cheatsheet</a></li>
-        
-        <h3>Advanced CSS</h3>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes" target="_blank">CSS Fancy Boxes</a></li>
-        <li><a href="https://cssgrid-generator.netlify.app/" target="_blank">CSS Grid Generator</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">Attribute Selectors</a></li>
-        <li><a href="https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile" target="_blank">Media Query</a></li>
-        <li><a href="https://www.w3schools.com/howto/howto_css_cards.asp" target="_blank">Create CSS cards</a></li>
-        <li><a href="https://www.w3schools.com/cssref/css_entities.php" target="_blank">CSS Entities</a></li>
-        <li><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">CSS Transitions</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">Pseudo-classes</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Pseudo-elements</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">Border-Radius</a></li>
-        <li><a href="https://www.w3schools.com/cssref/pr_class_visibility.php" target="_blank">Visibility Property</a></li>
-        <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank">cursor: pointer</a></li>
-        
-        
-      <h3>CSS Games</h3>
-      <li><a href="https://flexboxfroggy.com/" target="_blank">CSS Flexbox Froggy</a></li>
-      <li><a href="https://cssgridgarden.com/" target="_blank">CSS Grid Garden</a></li>
-      <li><a href="https://flukeout.github.io/" target="_blank">CSS Diner</a></li>
-      <!-- <li><a href="" target="_blank"></a></li> -->
-    </ul>
-  </section>
-  
-  <section class="JS">
-    <h2>JS</h2>
-    <ul>
-      <h3>Functions</h3>
-      <li><a href="https://www.w3schools.com/js/js_function_parameters.asp" target="_blank">JS Function Parameters</a></li>
-      <li><a href="https://stackoverflow.com/questions/35936365/what-exactly-is-the-parameter-e-event-and-why-pass-it-to-javascript-functions" target="_blank">Why is it function (event)?</a></li>
-      <li><a href="https://www.w3schools.com/js/js_switch.asp" target="_blank">JavaScript switch function</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions?retiredLocale=vi" target="_blank">Arrow Function Expressions (mozilla)</a></li>
-      <li><a href="https://www.w3schools.com/Js/js_arrow_function.asp" target="_blank">Arrow Function Expressions (w3)</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator" target="_blank">Ternary Operator</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat" target="_blank">parse float function</a></li>
-      <li><a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">for () loop function</a></li>
-      <li><a href="https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript" target="_blank">Generate random string/characters in JavaScript</a></li>
-      
-      
-      <h3>Arrays</h3>
-      <li><a href="https://www.w3schools.com/jsref/jsref_split.asp" target="_blank">string.split()</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice" target="_blank">string.splice()</a></li>
-
-      
-      <h3>Math</h3>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank">Math functions</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil" target="_blank">Math.ceil() method</a></li>
-      
-      <h3>Methods</h3>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find" target="_blank">find() method</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys" target="_blank">Object.keys() method</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">Map object</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase" target="_blank">.toUpperCase() method</a></li>
-      <li><a href="https://www.w3schools.com/java/ref_string_charat.asp" target="_blank">.charAt() Method</a></li>
-      <!-- <li><a href="" target="_blank"></a></li> -->
-      
-      
-      <h3>Window</h3>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt" target="_blank">window.prompt()</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm" target="_blank">window.confirm()</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/alert" target="_blank">window.alert()</a></li>
-      
-      <h3>Statements</h3>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" target="_blank">while loop statement</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for" target="_blank">for loop statement</a></li>
-      
-      
-      <h3>Operators</h3>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment" target="_blank">Increment (++)</a></li>
-      
-      <h3>DOM</h3>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document" target="_blank">Document (DOM TREE)</a></li>
-      <li><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp" target="_blank">document.getElementByID()</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll" target="_blank">document.querySelectorAll()</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector" target="_blank">document.querySelector()</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute" target="_blank">element.setAttribute()</a></li>
-      <li><a href="https://www.w3schools.com/jsref/met_node_appendchild.asp" target="_blank">appendChild() (w3)</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild" target="_blank">appendChild() (mozilla)</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent() property</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement" target="_blank">createElement() method</a></li>
-      <li><a href="https://www.tutorialspoint.com/How-to-check-whether-a-checkbox-is-checked-in-JavaScript" target="_blank">check whether a checkbox is checked in JS</a></li>
-    </ul>
+  <section id="WebAPI">
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWebAPI"
+        aria-expanded="false" aria-controls="collapseWebAPI">
+        <h2>WebAPI</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseWebAPI">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" target="_blank">Intro To JS Events</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events" target="_blank">Creating and Triggering Events</a></li>
+          <li><a href="https://javascript.info/event-delegation#delegation-example-actions-in-markup" target="_blank">EventDelegation</a></li>
+          <li><a href="https://www.w3schools.com/js/js_timing.asp" target="_blank">JS Timing Events</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent" target="_blank">Keyboard event</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" target="_blank">Key property</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event" target="_blank">KeyDown event</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code" target="_blank">Code property</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent property</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/datase" target="_blank">Dataset property</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank">addEventListener() method</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/setInterval" target="_blank">setInterval() function (mozilla)</a></li>
+          <li><a href="https://www.w3schools.com/jsref/met_win_setinterval.asp" target="_blank">setInterval() function method (w3)</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault" target="_blank">Prevent Default Method</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation" target="_blank">stopPropagation() method</a> </li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse" target="_blank">JSON.parse</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify" target="_blank">JSON.stringify</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">localStorage property</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event" target="_blank">keydown event</a></li>
+          <li><a href="https://code-boxx.com/add-html-code-in-javascript/" target="_blank">2 Ways to Add HTML Code in JS</a></li>
+          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML" target="_blank">innerHTML property</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
   </section>
     
-  <section class="WebAPI">
-    <h2>WebAPI</h2>
-    <ul>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" target="_blank">Intro To JS Events</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events" target="_blank">Creating and Triggering Events</a></li>
-      <li><a href="https://javascript.info/event-delegation#delegation-example-actions-in-markup" target="_blank">EventDelegation</a></li>
-      <li><a href="https://www.w3schools.com/js/js_timing.asp" target="_blank">JS Timing Events</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent" target="_blank">Keyboard event</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" target="_blank">Key property</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event" target="_blank">KeyDown event</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code" target="_blank">Code property</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent property</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/datase" target="_blank">Dataset property</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank">addEventListener() method</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/setInterval" target="_blank">setInterval() function method (mozilla)</a></li>
-      <li><a href="https://www.w3schools.com/jsref/met_win_setinterval.asp" target="_blank">setInterval() function method (w3)</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault" target="_blank">Prevent Default Method</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation" target="_blank">stopPropagation() method</a> </li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse" target="_blank">JSON.parse</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify" target="_blank">JSON.stringify</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">localStorage property</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event" target="_blank">keydown event</a></li>
-      <li><a href="https://code-boxx.com/add-html-code-in-javascript/" target="_blank">2 Ways to Add HTML Code in JS</a></li>
-      <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML" target="_blank">innerHTML property</a></li>
-    </ul>
-    <!-- <li><a href="" target="_blank"></a></li> -->
-  </section>
+  <section id="stock-images">
     
-    <section class="stock-images">
-      <h2>Stock Images</h2>
-      <ul>
-        <li><a href="https://www.pexels.com/" target="_blank">Pexels.com</a></li>
-      <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
-      <li><a href="https://picsum.photos" target="_blank">Lorem Ipsum for Photos</a></li>
-      <!-- <li><a href="" target="_blank"></a></li> -->
-    </ul>
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseStockImg" aria-expanded="false"
+        aria-controls="collapseStockImg">
+        <h2>Stock Images</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseStockImg">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://www.pexels.com/" target="_blank">Pexels.com</a></li>
+          <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
+          <li><a href="https://picsum.photos" target="_blank">Lorem Ipsum for Photos</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
+    </div>
   
   </section>
 
-  <section class="Color Tools">
-    <h2>Color Tools</h2>
-    <ul>
-      <li><a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">HTML Color Picker</a></li>
-      <li><a href="https://cssgradient.io/" target="_blank">CSS Gradient</a></li>
-      <li><a href="http://colormind.io/" target="_blank">Colormind.io: AI Color Generator</a></li>
-      <!-- <li><a href="" target="_blank"></a></li> -->
-    </ul>
-  
-  <section class="validators">
-    <h2>Validators</h2>
-    <ul>
-      <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
-      <li><a href="https://validator.w3.org/" target="_blank">HTML validator</a></li>
-    </ul>
-
+  <section id="color-tools">
+    
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseColorTools" aria-expanded="false"
+        aria-controls="collapseColorTools">
+        <h2>Color Tools</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseColorTools">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">HTML Color Picker</a></li>
+          <li><a href="https://cssgradient.io/" target="_blank">CSS Gradient</a></li>
+          <li><a href="http://colormind.io/" target="_blank">Colormind.io: AI Color Generator</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
+    </div>
   </section>
-  </main>
+
+  <section id="validators">
+    
+    <p>
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseValidate" aria-expanded="false"
+        aria-controls="collapseValidate">
+        <h2>Validators</h2>
+      </button>
+    </p>
+    <div class="collapse" id="collapseValidate">
+      <div class="card card-body mx-auto">
+        <ul>
+          <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
+          <li><a href="https://validator.w3.org/" target="_blank">HTML validator</a></li>
+          <!-- <li><a href="" target="_blank"></a></li> -->
+        </ul>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 
 </html>
+
+
+<!-- Collapsing Content Box -->
+
+<!-- <p>
+  <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
+    aria-expanded="false" aria-controls="collapse">
+    <h2>Collapse</h2>
+  </button>
+</p>
+<div class="collapse" id="collapse">
+  <div class="card card-body mx-auto">
+    <ul>
+      
+      <li><a href="" target="_blank"></a></li>
+    </ul>
+  </div>
+</div> -->
