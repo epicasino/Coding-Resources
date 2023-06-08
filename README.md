@@ -2,8 +2,6 @@
 
 ## Description
 
-Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
-
 - Google is our friend, and provides many resources and answers we need in a short amount of time, but sometimes we need a place where we can consolidate our resources into a single webpage.
 - I made a simple coding resources website for the average programmer to quickly scroll and find the resource/documentation they need for a specific section in their code.
 - Now, all of the resources I need can be seen in one simple website.
