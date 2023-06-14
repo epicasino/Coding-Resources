@@ -153,7 +153,30 @@ function webapi() {
     webApiGuidesListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-}
+};
+
+function restfulApi() {
+  const restfulApiListEl = document.querySelector('#restful-api-list');
+  restfulApiArray.forEach((element) => {
+    restfulApiListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+};
+
+function jQueryList() {
+  const jQueryCoreListEl = document.querySelector('#jQuery-core-list');
+  const jQueryUiListEl = document.querySelector('#jQueryUi-list')
+
+  jQueryArray.jQueryCore.forEach((element) => {
+    jQueryCoreListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  jQueryArray.jQueryUi.forEach((element) => {
+    jQueryUiListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+};
 
 js();
 css();
@@ -161,3 +184,5 @@ html();
 commandline();
 markdown();
 webapi();
+restfulApi();
+jQueryList();
