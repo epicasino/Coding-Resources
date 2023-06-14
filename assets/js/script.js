@@ -62,7 +62,7 @@ function css() {
     cssGamesListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-}
+};
 
 // JavaScript JS
 function js() {
@@ -217,13 +217,13 @@ function etcLinks() {
   });
 };
 
-etcLinks();
-js();
-css();
-html();
-commandline();
 markdown();
+commandline();
+html();
+css();
+js();
 webapi();
 restfulApi();
 jQueryList();
 cssFrameworks();
+etcLinks();
