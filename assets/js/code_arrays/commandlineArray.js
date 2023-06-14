@@ -1,0 +1,10 @@
+const commandlineArray = [
+  {
+    url: "https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands",
+    title: "Basic Terminal Commands",
+  },
+  {
+    url: "https://phoenixnap.com/kb/linux-alias-command",
+    title: "Linux alias command",
+  },
+];
