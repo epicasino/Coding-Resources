@@ -44,9 +44,9 @@
               <li><a class="dropdown-item" href="#CSS">CSS</a></li>
               <li><a class="dropdown-item" href="#JS">JavaScript</a></li>
               <li><a class="dropdown-item" href="#WebAPI">WebAPI</a></li>
-              <li><a class="dropdown-item" href="#APIs">APIs</a></li>
+              <li><a class="dropdown-item" href="#APIs">RESTful APIs</a></li>
               <li><a class="dropdown-item" href="#jQueryAPI">jQuery</a></li>
-              <li><a class="dropdown-item" href="#bootstrap">Bootstrap</a></li>
+              <li><a class="dropdown-item" href="#css-frameworks">CSS Frameworks</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#stock-images">Stock Images</a></li>
               <li><a class="dropdown-item" href="#color-tools">Color Tools</a></li>
@@ -81,17 +81,14 @@
       </button>
     </p>
     <div class="collapse" id="collapseMarkdown">
-      <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://www.markdownguide.org/basic-syntax" target="_blank">Basic Markdown Syntax</a></li>
-          <li><a href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide"
-                target="_blank">Professional Readme Guide</a></li>
-          <li><a href="./assets/markdown/README-template.md" target="_blank">Professional README Template</a></li>
+      <!-- Markdown Card -->
+      <div id="markdownCard" class="card card-body mx-auto">
+        <ul id="markdownList">
+
         </ul>
       </div>
     </div>
   </section>
-
 
   <!-- Command Line Dropdown -->
   <section id="command-line">
@@ -103,10 +100,7 @@
     </p>
     <div class="collapse" id="collapseCommandLine">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line#basic_built-in_terminal_commands" target="_blank">Basic Terminal Commands</a></li>
-          <li><a href="https://phoenixnap.com/kb/linux-alias-command" target="_blank">Linux alias command</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="commandlineList">
         </ul>
       </div>
     </div>
@@ -123,18 +117,7 @@
     </p>
     <div class="collapse" id="collapseHTML">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://www.w3schools.com/html/html_blocks.asp" target="_blank">HTML Block & Inline elements</a></li>
-          <li><a href="https://web.dev/learn/html/semantic-html/" target="_blank">Semantic HTML</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption" target="_blank">Figure Caption Tag</a></li>
-          <li><a href="https://www.w3schools.com/html/html_forms.asp">HTML Forms Tag</a></li>
-          <li><a href="https://www.delftstack.com/howto/html/html-code-block/" target="_blank">HTML Code Block</a></li>
-          <li><a href="https://www.w3schools.com/tags/tag_button.asp" target="_blank">button tag</a></li>
-          <li><a href="https://www.w3schools.com/TAGS/att_script_src.asp" target="_blank">script attribute for JS</a></li>
-          <li><a href="https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/" target="_blank">div vs span tags</a></li>
-          <li><a href="https://www.w3schools.com/tags/tag_input.asp" target="_blank">HTML input tag</a></li>
-          <li><a href="https://www.delftstack.com/howto/html/html-code-block/" target="_blank">Write a HTML Code Block</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="htmlList">
         </ul>
       </div>
     </div>
@@ -161,14 +144,8 @@
         </p>
         <div class="collapse" id="collapseCSSBasics">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://robdodson.me/posts/css-semantics/" target="_blank">CSS Semantics</a></li>
-              <li><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">CSS Positioning</a></li>
-              <li><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">CSS Box Model</a></li>
-              <li><a href="https://cssreference.io/typography/" target="_blank">CSS Typography</a></li>
-              <li><a href="https://www.w3.org/Style/Examples/007/units.en.html" target="_blank">px, em, % sizings</a></li>
-              <li><a href="https://wireframe.cc/" target="_blank">Wireframe website</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="css-basics-list">
+
             </ul>
           </div>
         </div>
@@ -182,10 +159,8 @@
         </p>
         <div class="collapse" id="collapseCSSReset">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="./assets/css/ucsdreset.css" target="_blank">UCSD reset.css file</a></li>
-              <li><a href="./assets/css/meyerwebreset.css" target="_blank">meyerweb reset.css file</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="css-reset-files-list">
+              
             </ul>
           </div>
         </div>
@@ -199,11 +174,8 @@
         </p>
         <div class="collapse" id="collapseFlexbox">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_blank">CSS Guide to Flexbox</a></li>
-              <li><a href="https://css-tricks.com/snippets/css/complete-guide-grid/" target="_blank">Guide to CSS Grid</a></li>
-              <li><a href="./assets/images/css-snippet-cheatsheet.png" target="_blank">CSS Snippet Cheatsheet</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="css-flexbox-list">
+              
             </ul>
           </div>
         </div>
@@ -217,23 +189,8 @@
         </p>
         <div class="collapse" id="collapseCSSAdv">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto/create_fancy_boxes" target="_blank">CSS Fancy
-                  Boxes</a></li>
-              <li><a href="https://cssgrid-generator.netlify.app/" target="_blank">CSS Grid Generator</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors" target="_blank">Attribute
-                  Selectors</a></li>
-              <li><a href="https://stackoverflow.com/questions/6370690/media-queries-how-to-target-desktop-tablet-and-mobile"
-                  target="_blank">Media Query</a></li>
-              <li><a href="https://www.w3schools.com/howto/howto_css_cards.asp" target="_blank">Create CSS cards</a></li>
-              <li><a href="https://www.w3schools.com/cssref/css_entities.php" target="_blank">CSS Entities</a></li>
-              <li><a href="https://www.w3schools.com/css/css3_transitions.asp" target="_blank">CSS Transitions</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes" target="_blank">Pseudo-classes</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements" target="_blank">Pseudo-elements</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius" target="_blank">Border-Radius</a></li>
-              <li><a href="https://www.w3schools.com/cssref/pr_class_visibility.php" target="_blank">Visibility Property</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/cursor" target="_blank">cursor: pointer</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="advanced-css-list">
+
             </ul>
           </div>
         </div>
@@ -247,11 +204,8 @@
         </p>
         <div class="collapse" id="collapseCSSGames">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://flexboxfroggy.com/" target="_blank">CSS Flexbox Froggy</a></li>
-              <li><a href="https://cssgridgarden.com/" target="_blank">CSS Grid Garden</a></li>
-              <li><a href="https://flukeout.github.io/" target="_blank">CSS Diner</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="css-games-list">
+
             </ul>
           </div>
         </div>
@@ -280,25 +234,8 @@
         </p>
         <div class="collapse" id="collapseJSFunctions">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://www.w3schools.com/js/js_function_parameters.asp" target="_blank">JS Function Parameters</a></li>
-              <li><a
-                  href="https://stackoverflow.com/questions/35936365/what-exactly-is-the-parameter-e-event-and-why-pass-it-to-javascript-functions"
-                  target="_blank">Why is it function (event)?</a></li>
-              <li><a href="https://www.w3schools.com/js/js_switch.asp" target="_blank">JavaScript switch function</a></li>
-              <li><a
-                  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions?retiredLocale=vi"
-                  target="_blank">Arrow Function Expressions (mozilla)</a></li>
-              <li><a href="https://www.w3schools.com/Js/js_arrow_function.asp" target="_blank">Arrow Function Expressions (w3)</a>
-              </li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator"
-                  target="_blank">Ternary Operator</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseFloat"
-                  target="_blank">parse float function</a></li>
-              <li><a href="https://www.w3schools.com/js/js_loop_for.asp" target="_blank">for () loop function</a></li>
-              <li><a href="https://stackoverflow.com/questions/14696261/declaring-two-variables-in-a-for-loop" target="_blank">Declaring two variables in a for loop</a></li>
-              <li><a href="https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript"
-                  target="_blank">Generate random string/characters in JavaScript</a></li>
+            <ul id="js-function-list">
+
             </ul>
           </div>
         </div>
@@ -311,11 +248,8 @@
         </p>
         <div class="collapse" id="collapseArrays">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://www.w3schools.com/jsref/jsref_split.asp" target="_blank">string.split()</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
-                  target="_blank">string.splice()</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="arrays-list">
+
             </ul>
           </div>
         </div>
@@ -328,12 +262,8 @@
         </p>
         <div class="collapse" id="collapseMath">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math" target="_blank">Math
-                  functions</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil"
-                  target="_blank">Math.ceil() method</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="math-list">
+
             </ul>
           </div>
         </div>
@@ -346,19 +276,8 @@
         </p>
         <div class="collapse" id="collapseMethods">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
-                  target="_blank">find() method</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
-                  target="_blank">Object.keys() method</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map" target="_blank">Map
-                  object</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
-                  target="_blank">.toUpperCase() method</a></li>
-              <li><a href="https://www.w3schools.com/java/ref_string_charat.asp" target="_blank">.charAt() Method</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach" target="_blank"></a>forEach() method</li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map" target="_blank"></a>map() method</li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="methods-list">
+
             </ul>
           </div>
         </div>
@@ -371,11 +290,7 @@
         </p>
         <div class="collapse" id="collapseWindow">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/prompt" target="_blank">window.prompt()</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm" target="_blank">window.confirm()</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/alert" target="_blank">window.alert()</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="window-list">
             </ul>
           </div>
         </div>
@@ -388,12 +303,8 @@
         </p>
         <div class="collapse" id="collapseStatements">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while" target="_blank">while
-                  loop statement</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for" target="_blank">for loop
-                  statement</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="statements-list">
+
             </ul>
           </div>
         </div>
@@ -406,10 +317,7 @@
         </p>
         <div class="collapse" id="collapseOperators">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment"
-                  target="_blank">Increment (++)</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="operators-list">
             </ul>
           </div>
         </div>
@@ -422,29 +330,7 @@
         </p>
         <div class="collapse" id="collapseDOM">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document" target="_blank">Document (DOM TREE)</a></li>
-              <li><a href="https://www.w3schools.com/jsref/met_document_getelementbyid.asp"
-                  target="_blank">document.getElementByID()</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll"
-                  target="_blank">document.querySelectorAll()</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector"
-                  target="_blank">document.querySelector()</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute"
-                  target="_blank">element.setAttribute()</a></li>
-              <li><a href="https://www.w3schools.com/jsref/met_node_appendchild.asp" target="_blank">appendChild() (w3)</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/appendChild" target="_blank">appendChild()
-                  (mozilla)</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent()
-                  property</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement" target="_blank">createElement()
-                  method</a></li>
-              <li><a href="https://www.tutorialspoint.com/How-to-check-whether-a-checkbox-is-checked-in-JavaScript"
-                  target="_blank">check whether a checkbox is checked in JS</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/parentElement" target="_blank">parentElement() Method</a></li>
-              <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/tagName" target="_blank">tagName</a></li>
-              <li><a href="https://stackoverflow.com/questions/52739898/making-cards-with-javascript-and-html" target="_blank">Making cards with JS</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="dom-list">
             </ul>
           </div>
         </div>
@@ -462,32 +348,91 @@
     </p>
     <div class="collapse" id="collapseWebAPI">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events" target="_blank">Intro To JS Events</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/Events/Creating_and_triggering_events" target="_blank">Creating and Triggering Events</a></li>
-          <li><a href="https://javascript.info/event-delegation#delegation-example-actions-in-markup" target="_blank">EventDelegation</a></li>
-          <li><a href="https://www.w3schools.com/js/js_timing.asp" target="_blank">JS Timing Events</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent" target="_blank">Keyboard event</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key" target="_blank">Key property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event" target="_blank">KeyDown event</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code" target="_blank">Code property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Node/textContent" target="_blank">textContent property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/datase" target="_blank">Dataset property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener" target="_blank">addEventListener() method</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/setInterval" target="_blank">setInterval() function (mozilla)</a></li>
-          <li><a href="https://www.w3schools.com/jsref/met_win_setinterval.asp" target="_blank">setInterval() function method (w3)</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault" target="_blank">Prevent Default Method</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Event/stopPropagation" target="_blank">stopPropagation() method</a> </li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse" target="_blank">JSON.parse</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify" target="_blank">JSON.stringify</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage" target="_blank">localStorage property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event" target="_blank">keydown event</a></li>
-          <li><a href="https://code-boxx.com/add-html-code-in-javascript/" target="_blank">2 Ways to Add HTML Code in JS</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Element/innerHTML" target="_blank">innerHTML property</a></li>
-          <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Storage/key" target="_blank">localStorage keys</a></li>
-          <li><a href="https://stackoverflow.com/questions/10333230/save-input-data-to-localstorage-on-button-click" target="_blank">Save input data to localStorage on button click</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
-        </ul>
+        
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-webapi-events" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Events</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-webapi-events">
+          <div class="card card-body mx-auto">
+            <ul id="collapse-webapi-events-list">
+              
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-webapi-property"
+            aria-expanded="false" aria-controls="collapse">
+            <h3>Properties</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-webapi-property">
+          <div class="card card-body mx-auto">
+            <ul id="collapse-webapi-property-list">
+        
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-webapi-methods"
+            aria-expanded="false" aria-controls="collapse">
+            <h3>Methods</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-webapi-methods">
+          <div class="card card-body mx-auto">
+            <ul id="collapse-webapi-methods-list">
+        
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-webapi-objects"
+            aria-expanded="false" aria-controls="collapse">
+            <h3>Objects</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-webapi-objects">
+          <div class="card card-body mx-auto">
+            <ul id="collapse-webapi-objects-list">
+        
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-webapi-keys"
+            aria-expanded="false" aria-controls="collapse">
+            <h3>Keys</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-webapi-keys">
+          <div class="card card-body mx-auto">
+            <ul id="collapse-webapi-keys-list">
+        
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-webapi-guides"
+            aria-expanded="false" aria-controls="collapse">
+            <h3>Guides</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-webapi-guides">
+          <div class="card card-body mx-auto">
+            <ul id="collapse-webapi-guides-list">
+        
+            </ul>
+          </div>
+        </div>
+
       </div>
   </section>
   
@@ -496,23 +441,14 @@
     <p>
       <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseAPIs"
         aria-expanded="false" aria-controls="collapse">
-        <h2>APIs</h2>
+        <h2>RESTful APIs</h2>
       </button>
     </p>
     <div class="collapse" id="collapseAPIs">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://coding-boot-camp.github.io/full-stack/apis/api-resources" 
-            target="_blank">API Resources</a></li>
-            <li><a href="https://docs.github.com/en/rest/quickstart?apiVersion=2022-11-28" target="_blank">GitHub REST API Docs</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API" target="_blank">fetch() API (mozilla)</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch" target="_blank">using Fetch</a></li>
-            <li><a href="https://www.w3schools.com/js/js_api_fetch.asp" target="_blank">fetch() API (w3)</a></li>
-            <li><a href="https://day.js.org/docs/en/installation/installation" target="_blank">day.js docs</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Location" target="_blank">document.location</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Location/replace" target="_blank">document.location.replace</a></li>
-            <li><a href="https://developer.mozilla.org/en-US/docs/Web/API/Request/cache" target="_blank">request cache/no-cache</a></li>
-          </ul>
+        <ul id="restful-api-list">
+          
+        </ul>
       </div>
     </div>
     
@@ -539,16 +475,7 @@
         </p>
         <div class="collapse" id="collapseJQueryCore">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://releases.jquery.com/" target="_blank">jQuery CDN Versions</a></li>
-              <li><a href="https://api.jquery.com/" target="_blank">jQuery API Documentation</a></li>
-              <li><a href="https://www.w3schools.com/jquery/default.asp" target="_blank">w3schools jQuery Tutorial</a></li>
-              <li><a href="./assets/js/code examples/basic-jquery-shorthand.js" target="_blank">jQuery Shorthand Code Snippet</a></li>
-              <li><a href="./assets/js/code examples/jquery-click-event.js" target="_blank">jQuery Click Event Code Snippet</a></li>
-              <li><a href="./assets/js/code examples/jquery-event-delegation.js" target="_blank">jQuery Event Delegation Code
-                  Snippet</a></li>
-              <li><a href="./assets/js/code examples/jquery-forms.js" target="_blank">jQuery Forms Code Snippet</a></li>
-              <li><a href="https://www.w3schools.com/jquery/ajax_ajax.asp" target="_blank">ajax() method</a></li>
+            <ul id="jQuery-core-list">
             </ul>
           </div>
         </div>
@@ -562,10 +489,7 @@
         </p>
         <div class="collapse" id="collapseJQueryUI">
           <div class="card card-body mx-auto">
-            <ul>
-              <li><a href="https://jqueryui.com/" target="_blank">jQuery UI Website</a></li>
-              <li><a href="https://jqueryui.com/demos/" target="_blank">jQuery UI Demos</a></li>
-              <!-- <li><a href="" target="_blank"></a></li> -->
+            <ul id="jQueryUi-list">
             </ul>
           </div>
         </div>
@@ -575,48 +499,48 @@
   
   </section>
 
-  <!-- Bootstrap Dropdown -->
-  <section id="bootstrap">
+  <!-- CSS Frameworks Dropdown -->
+  <section id="css-frameworks">
   
     <p>
-      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBootstrap" aria-expanded="false"
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-css-framework" aria-expanded="false"
         aria-controls="collapse">
-        <h2>Bootstrap</h2>
+        <h2>CSS Frameworks</h2>
       </button>
     </p>
-    <div class="collapse" id="collapseBootstrap">
+    <div class="collapse" id="collapse-css-framework">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start" target="_blank">Bootstrap Quick Start (Docs)</a></li>
-          <li><a href="https://getbootstrap.com/docs/5.3/examples/" target="_blank">Functional Bootstrap Example Code</a></li>
 
-          <li><a href="https://getbootstrap.com/docs/5.3/components/collapse/" target="_blank">Collapse component</a></li>
-          
-          <!-- <li><a href="" target="_blank"></a></li> -->
-        </ul>
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-bootstrap" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Bootstrap</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-bootstrap">
+          <div class="card card-body mx-auto">
+            <ul id="bootstrap-list">
+              
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-bulma" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Bulma</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-bulma">
+          <div class="card card-body mx-auto">
+            <ul id="bulma-list">
+        
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   
-  </section>
-  
-  <!-- Bulma Dropdown -->
-  <section id="bulma">
-    <p>
-      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
-        aria-expanded="false" aria-controls="collapse">
-        <h2>Bulma</h2>
-      </button>
-    </p>
-    <div class="collapse" id="collapse">
-      <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://bulma.io/documentation/overview/start/" target="_blank">Bulma CDN HTML Link</a></li>
-          <li><a href="https://bulma.io/documentation/overview/modifiers/" target="_blank">Bulma modifier syntax</a></li>
-          <li><a href="https://bulma.io/documentation/columns/sizes/" target="_blank">Bulma column sizes</a></li>
-          <li><a href="https://bulma.io/alternative-to-bootstrap/" target="_blank">Bulma & Bootstrap Comparison</a></li>
-        </ul>
-      </div>
-    </div>
   </section>
 
   <!-- Stock Images Dropdown -->
@@ -630,11 +554,8 @@
     </p>
     <div class="collapse" id="collapseStockImg">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://www.pexels.com/" target="_blank">Pexels.com</a></li>
-          <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
-          <li><a href="https://picsum.photos" target="_blank">Lorem Ipsum for Photos</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="stock-images-list">
+          
         </ul>
       </div>
     </div>
@@ -652,12 +573,7 @@
     </p>
     <div class="collapse" id="collapseColorTools">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">HTML Color Picker</a></li>
-          <li><a href="https://cssgradient.io/" target="_blank">CSS Gradient</a></li>
-          <li><a href="https://coolors.co/" target="_blank">Coolors.co</a></li>
-          <li><a href="http://colormind.io/" target="_blank">Colormind.io: AI Color Generator</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="color-tools-list">
         </ul>
       </div>
     </div>
@@ -674,10 +590,8 @@
     </p>
     <div class="collapse" id="collapseValidate">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
-          <li><a href="https://validator.w3.org/" target="_blank">HTML validator</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="validators-list">
+
         </ul>
       </div>
     </div>
@@ -700,11 +614,8 @@
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
-<!-- JQuery JS -->
-<script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM="
-  crossorigin="anonymous"></script>
-
 <!-- Own JS Script -->
+<script src="./assets/js/code_arrays/linkArrays.js"></script>
 <script src="./assets/js/script.js"></script>
 </body>
 
