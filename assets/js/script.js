@@ -116,8 +116,48 @@ function js() {
   });
 };
 
+function webapi() {
+  const webApiEventsListEl = document.querySelector('#collapse-webapi-events-list');
+  const webApiPropertyListEl = document.querySelector('#collapse-webapi-property-list');
+  const webApiMethodsListEl = document.querySelector('#collapse-webapi-methods-list');
+  const webApiObjectsListEl = document.querySelector('#collapse-webapi-objects-list');
+  const webApiKeysListEl = document.querySelector('#collapse-webapi-keys-list');
+  const webApiGuidesListEl = document.querySelector('#collapse-webapi-guides-list');
+
+  webApiArray.webApiEvents.forEach((element) => {
+    webApiEventsListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  webApiArray.webApiProperty.forEach((element) => {
+    webApiPropertyListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  webApiArray.webApiMethods.forEach((element) => {
+    webApiMethodsListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  webApiArray.webApiGlobalObjects.forEach((element) => {
+    webApiObjectsListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  webApiArray.webApiKeys.forEach((element) => {
+    webApiKeysListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  webApiArray.webApiGuides.forEach((element) => {
+    webApiGuidesListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+}
+
 js();
 css();
 html();
 commandline();
 markdown();
+webapi();
