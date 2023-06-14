@@ -1,4 +1,4 @@
-// Markdown JS 
+// Markdown JS
 function markdown() {
   const markdownListEl = document.querySelector("#markdownList");
 
@@ -6,7 +6,7 @@ function markdown() {
     markdownListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 // Commandline JS
 function commandline() {
@@ -16,10 +16,9 @@ function commandline() {
     commandlineListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 // HTML JS
-
 function html() {
   const htmlListEl = document.querySelector("#htmlList");
 
@@ -27,10 +26,9 @@ function html() {
     htmlListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 // CSS JS
-
 function css() {
   const cssBasicsListEl = document.querySelector("#css-basics-list");
   const cssResetListEl = document.querySelector("#css-reset-files-list");
@@ -62,7 +60,7 @@ function css() {
     cssGamesListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 // JavaScript JS
 function js() {
@@ -114,16 +112,26 @@ function js() {
     jsDOMListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 // WebAPI JS
 function webapi() {
-  const webApiEventsListEl = document.querySelector('#collapse-webapi-events-list');
-  const webApiPropertyListEl = document.querySelector('#collapse-webapi-property-list');
-  const webApiMethodsListEl = document.querySelector('#collapse-webapi-methods-list');
-  const webApiObjectsListEl = document.querySelector('#collapse-webapi-objects-list');
-  const webApiKeysListEl = document.querySelector('#collapse-webapi-keys-list');
-  const webApiGuidesListEl = document.querySelector('#collapse-webapi-guides-list');
+  const webApiEventsListEl = document.querySelector(
+    "#collapse-webapi-events-list"
+  );
+  const webApiPropertyListEl = document.querySelector(
+    "#collapse-webapi-property-list"
+  );
+  const webApiMethodsListEl = document.querySelector(
+    "#collapse-webapi-methods-list"
+  );
+  const webApiObjectsListEl = document.querySelector(
+    "#collapse-webapi-objects-list"
+  );
+  const webApiKeysListEl = document.querySelector("#collapse-webapi-keys-list");
+  const webApiGuidesListEl = document.querySelector(
+    "#collapse-webapi-guides-list"
+  );
 
   webApiArray.webApiEvents.forEach((element) => {
     webApiEventsListEl.innerHTML += `
@@ -154,21 +162,21 @@ function webapi() {
     webApiGuidesListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 // RESTful API JS
 function restfulApi() {
-  const restfulApiListEl = document.querySelector('#restful-api-list');
+  const restfulApiListEl = document.querySelector("#restful-api-list");
   restfulApiArray.forEach((element) => {
     restfulApiListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 // jQuery JS
 function jQueryList() {
-  const jQueryCoreListEl = document.querySelector('#jQuery-core-list');
-  const jQueryUiListEl = document.querySelector('#jQueryUi-list')
+  const jQueryCoreListEl = document.querySelector("#jQuery-core-list");
+  const jQueryUiListEl = document.querySelector("#jQueryUi-list");
 
   jQueryArray.jQueryCore.forEach((element) => {
     jQueryCoreListEl.innerHTML += `
@@ -179,11 +187,12 @@ function jQueryList() {
     jQueryUiListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
+// CSS Framework JS
 function cssFrameworks() {
-  const bootstrapListEl = document.querySelector('#bootstrap-list');
-  const bulmaListEl = document.querySelector('#bulma-list');
+  const bootstrapListEl = document.querySelector("#bootstrap-list");
+  const bulmaListEl = document.querySelector("#bulma-list");
 
   cssFrameworkArray.bootstrap.forEach((element) => {
     bootstrapListEl.innerHTML += `
@@ -194,12 +203,13 @@ function cssFrameworks() {
     bulmaListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
+// Stock Images, Color Tools, Valifator JS
 function etcLinks() {
-  const stockImagesListEl = document.querySelector('#stock-images-list');
-  const colorToolsListEl = document.querySelector('#color-tools-list');
-  const validatorsListEl = document.querySelector('#validators-list');
+  const stockImagesListEl = document.querySelector("#stock-images-list");
+  const colorToolsListEl = document.querySelector("#color-tools-list");
+  const validatorsListEl = document.querySelector("#validators-list");
 
   etcArray.stockImages.forEach((element) => {
     stockImagesListEl.innerHTML += `
@@ -215,7 +225,7 @@ function etcLinks() {
     validatorsListEl.innerHTML += `
   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-};
+}
 
 markdown();
 commandline();
