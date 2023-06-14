@@ -116,6 +116,7 @@ function js() {
   });
 };
 
+// WebAPI JS
 function webapi() {
   const webApiEventsListEl = document.querySelector('#collapse-webapi-events-list');
   const webApiPropertyListEl = document.querySelector('#collapse-webapi-property-list');
@@ -155,6 +156,7 @@ function webapi() {
   });
 };
 
+// RESTful API JS
 function restfulApi() {
   const restfulApiListEl = document.querySelector('#restful-api-list');
   restfulApiArray.forEach((element) => {
@@ -163,6 +165,7 @@ function restfulApi() {
   });
 };
 
+// jQuery JS
 function jQueryList() {
   const jQueryCoreListEl = document.querySelector('#jQuery-core-list');
   const jQueryUiListEl = document.querySelector('#jQueryUi-list')
@@ -178,6 +181,43 @@ function jQueryList() {
   });
 };
 
+function cssFrameworks() {
+  const bootstrapListEl = document.querySelector('#bootstrap-list');
+  const bulmaListEl = document.querySelector('#bulma-list');
+
+  cssFrameworkArray.bootstrap.forEach((element) => {
+    bootstrapListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  cssFrameworkArray.bulma.forEach((element) => {
+    bulmaListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+};
+
+function etcLinks() {
+  const stockImagesListEl = document.querySelector('#stock-images-list');
+  const colorToolsListEl = document.querySelector('#color-tools-list');
+  const validatorsListEl = document.querySelector('#validators-list');
+
+  etcArray.stockImages.forEach((element) => {
+    stockImagesListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  etcArray.colorTools.forEach((element) => {
+    colorToolsListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  etcArray.validators.forEach((element) => {
+    validatorsListEl.innerHTML += `
+  <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+};
+
+etcLinks();
 js();
 css();
 html();
@@ -186,3 +226,4 @@ markdown();
 webapi();
 restfulApi();
 jQueryList();
+cssFrameworks();

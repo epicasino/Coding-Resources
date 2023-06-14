@@ -44,9 +44,9 @@
               <li><a class="dropdown-item" href="#CSS">CSS</a></li>
               <li><a class="dropdown-item" href="#JS">JavaScript</a></li>
               <li><a class="dropdown-item" href="#WebAPI">WebAPI</a></li>
-              <li><a class="dropdown-item" href="#APIs">APIs</a></li>
+              <li><a class="dropdown-item" href="#APIs">RESTful APIs</a></li>
               <li><a class="dropdown-item" href="#jQueryAPI">jQuery</a></li>
-              <li><a class="dropdown-item" href="#bootstrap">Bootstrap</a></li>
+              <li><a class="dropdown-item" href="#css-frameworks">CSS Frameworks</a></li>
               <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#stock-images">Stock Images</a></li>
               <li><a class="dropdown-item" href="#color-tools">Color Tools</a></li>
@@ -89,7 +89,6 @@
       </div>
     </div>
   </section>
-
 
   <!-- Command Line Dropdown -->
   <section id="command-line">
@@ -500,48 +499,48 @@
   
   </section>
 
-  <!-- Bootstrap Dropdown -->
-  <section id="bootstrap">
+  <!-- CSS Frameworks Dropdown -->
+  <section id="css-frameworks">
   
     <p>
-      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBootstrap" aria-expanded="false"
+      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-css-framework" aria-expanded="false"
         aria-controls="collapse">
-        <h2>Bootstrap</h2>
+        <h2>CSS Frameworks</h2>
       </button>
     </p>
-    <div class="collapse" id="collapseBootstrap">
+    <div class="collapse" id="collapse-css-framework">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/#quick-start" target="_blank">Bootstrap Quick Start (Docs)</a></li>
-          <li><a href="https://getbootstrap.com/docs/5.3/examples/" target="_blank">Functional Bootstrap Example Code</a></li>
 
-          <li><a href="https://getbootstrap.com/docs/5.3/components/collapse/" target="_blank">Collapse component</a></li>
-          
-          <!-- <li><a href="" target="_blank"></a></li> -->
-        </ul>
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-bootstrap" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Bootstrap</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-bootstrap">
+          <div class="card card-body mx-auto">
+            <ul id="bootstrap-list">
+              
+            </ul>
+          </div>
+        </div>
+
+        <p>
+          <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-bulma" aria-expanded="false"
+            aria-controls="collapse">
+            <h3>Bulma</h3>
+          </button>
+        </p>
+        <div class="collapse" id="collapse-bulma">
+          <div class="card card-body mx-auto">
+            <ul id="bulma-list">
+        
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   
-  </section>
-  
-  <!-- Bulma Dropdown -->
-  <section id="bulma">
-    <p>
-      <button class="btn" type="button" data-bs-toggle="collapse" data-bs-target="#collapse"
-        aria-expanded="false" aria-controls="collapse">
-        <h2>Bulma</h2>
-      </button>
-    </p>
-    <div class="collapse" id="collapse">
-      <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://bulma.io/documentation/overview/start/" target="_blank">Bulma CDN HTML Link</a></li>
-          <li><a href="https://bulma.io/documentation/overview/modifiers/" target="_blank">Bulma modifier syntax</a></li>
-          <li><a href="https://bulma.io/documentation/columns/sizes/" target="_blank">Bulma column sizes</a></li>
-          <li><a href="https://bulma.io/alternative-to-bootstrap/" target="_blank">Bulma & Bootstrap Comparison</a></li>
-        </ul>
-      </div>
-    </div>
   </section>
 
   <!-- Stock Images Dropdown -->
@@ -555,11 +554,8 @@
     </p>
     <div class="collapse" id="collapseStockImg">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://www.pexels.com/" target="_blank">Pexels.com</a></li>
-          <li><a href="https://unsplash.com/" target="_blank">Unsplash</a></li>
-          <li><a href="https://picsum.photos" target="_blank">Lorem Ipsum for Photos</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="stock-images-list">
+          
         </ul>
       </div>
     </div>
@@ -577,12 +573,7 @@
     </p>
     <div class="collapse" id="collapseColorTools">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://www.w3schools.com/colors/colors_picker.asp" target="_blank">HTML Color Picker</a></li>
-          <li><a href="https://cssgradient.io/" target="_blank">CSS Gradient</a></li>
-          <li><a href="https://coolors.co/" target="_blank">Coolors.co</a></li>
-          <li><a href="http://colormind.io/" target="_blank">Colormind.io: AI Color Generator</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="color-tools-list">
         </ul>
       </div>
     </div>
@@ -599,10 +590,8 @@
     </p>
     <div class="collapse" id="collapseValidate">
       <div class="card card-body mx-auto">
-        <ul>
-          <li><a href="https://jigsaw.w3.org/css-validator/" target="_blank">CSS validator</a></li>
-          <li><a href="https://validator.w3.org/" target="_blank">HTML validator</a></li>
-          <!-- <li><a href="" target="_blank"></a></li> -->
+        <ul id="validators-list">
+
         </ul>
       </div>
     </div>
@@ -630,6 +619,8 @@
   crossorigin="anonymous"></script>
 
 <!-- Own JS Script -->
+<script src="./assets/js/code_arrays/etcArray.js"></script>
+<script src="./assets/js/code_arrays/cssFrameworkArray.js"></script>
 <script src="./assets/js/code_arrays/jQueryArray.js"></script>
 <script src="./assets/js/code_arrays/restfulApiArray.js"></script>
 <script src="./assets/js/code_arrays/webapiArray.js"></script>
