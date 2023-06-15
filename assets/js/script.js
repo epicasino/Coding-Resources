@@ -205,7 +205,28 @@ function cssFrameworks() {
   });
 }
 
-// Stock Images, Color Tools, Valifator JS
+function nodeJS() {
+  const nodeJSListEl = document.querySelector("#nodejs-list");
+  const nodeFSListEl = document.querySelector("#node-fs-list");
+  const nodeNPMListEL = document.querySelector("#node-npm-list");
+
+  nodeJSArray.nodeJS.forEach((element) => {
+    nodeJSListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  nodeJSArray.filesystem.forEach((element) => {
+    nodeFSListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  nodeJSArray.npm.forEach((element) => {
+    nodeNPMListEL.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+}
+
+// Stock Images, Color Tools, Validator JS
 function etcLinks() {
   const stockImagesListEl = document.querySelector("#stock-images-list");
   const colorToolsListEl = document.querySelector("#color-tools-list");
@@ -237,3 +258,11 @@ restfulApi();
 jQueryList();
 cssFrameworks();
 etcLinks();
+nodeJS();
+
+// boiler plate
+
+// array.forEach((element) => {
+//   htmlelement.innerHTML += `
+//   <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+// });

@@ -8,6 +8,10 @@ const markdownArray = [
     title: "Professional Readme Guide",
   },
   {
+    url: "https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba#gnu-gpl-v3",
+    title: "Markdown License badges",
+  },
+  {
     url: "./assets/markdown/README-template.md",
     title: "Professional README Template",
   },
@@ -236,6 +240,14 @@ const jsArray = {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice",
       title: "string.splice()",
     },
+    {
+      url: "https://javascript.info/rest-parameters-spread",
+      title: "Rest parameters and spread syntax",
+    },
+    {
+      url: "https://stackoverflow.com/questions/34559918/spread-syntax-es6",
+      title: "Spread Syntax ES6",
+    },
   ],
   jsMath: [
     {
@@ -276,6 +288,10 @@ const jsArray = {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
       title: "map() method",
     },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
+      title: "reduce() method",
+    },
   ],
   jsWindow: [
     {
@@ -299,6 +315,14 @@ const jsArray = {
     {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for",
       title: "for loop statement",
+    },
+    {
+      url: "https://www.w3schools.com/js/js_switch.asp",
+      title: "switch statement",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return",
+      title: "return statement",
     },
   ],
   jsOperators: [
@@ -587,6 +611,102 @@ const cssFrameworkArray = {
     {
       url: "https://bulma.io/alternative-to-bootstrap/",
       title: "Bulma & Bootstrap Comparison",
+    },
+  ],
+};
+
+const nodeJSArray = {
+  nodeJS: [
+    {
+      url: "https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/",
+      title: "Node.js handbook",
+    },
+    {
+      url: "https://nodeschool.io/",
+      title: "NodeSchool",
+    },
+  ],
+  filesystem: [
+    {
+      url: "https://www.w3schools.com/nodejs/nodejs_filesystem.asp",
+      title: "Node.js File System Module",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/node-js-fs-writefile-method/",
+      title: "Node.js fs.writeFile() Method",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/node-js-fs-appendfile-function/",
+      title: "Node.js fs.appendFile() Function",
+    },
+    {
+      url: "https://stackoverflow.com/questions/57235291/using-writefile-to-create-a-json-file-inquirer-and-editing-the-results",
+      title:
+        "Using writefile() to create a Json file, inquirer, and editing the results (StackOverFlow)",
+    },
+    {
+      url: "https://stackoverflow.com/questions/10384340/how-to-append-to-new-line-in-node-js",
+      title: "How to append to New Line in Node.js (StackOverFlow)",
+    },
+  ],
+  npm: [
+    {
+      url: "https://nodesource.com/blog/an-absolute-beginners-guide-to-using-npm/",
+      title: "An Absolute Beginner's Guide to Using npm",
+    },
+    {
+      url: "https://www.npmjs.com/package/inquirer",
+      title: "Inquirer.js",
+    },
+    {
+      url: "https://www.npmjs.com/package/axios?activeTab=readme",
+      title: "axios",
+    },
+  ],
+};
+
+const jsOOPArray = {
+  main: [
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming",
+      title: "Object-oriented programming (mozilla)",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+      title: "Standard built-in objects",
+    },
+  ],
+  expressions: [
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+      title: "Destructuring assignment",
+    },
+    {
+      url: "https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/",
+      title: "JavaScript Object Destructuring (freecodecamp)",
+    },
+    {
+      url: "https://stackoverflow.com/questions/54293147/destructuring-nested-objects-in-javascript-destructure-second-level-parent-and",
+      title: "Destructuring Nested objects in javascript",
+    },
+  ],
+  inheritance: [
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor",
+      title: "Constructor expression",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions",
+      title: "Method definitions",
+    },
+    {
+      url: "https://www.w3schools.com/js/js_class_inheritance.asp",
+      title: "JavaScript Class Inheritance",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
+      title:
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
     },
   ],
 };
