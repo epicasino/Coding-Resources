@@ -284,6 +284,10 @@ const jsArray = {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map",
       title: "map() method",
     },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
+      title: "reduce() method",
+    },
   ],
   jsWindow: [
     {
@@ -606,12 +610,12 @@ const cssFrameworkArray = {
 const nodeJSArray = {
   nodeJS: [
     {
-      url: 'https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/',
-      title: 'Node.js handbook',
+      url: "https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/",
+      title: "Node.js handbook",
     },
     {
-      url: 'https://nodeschool.io/',
-      title: 'NodeSchool',
+      url: "https://nodeschool.io/",
+      title: "NodeSchool",
     },
   ],
   filesystem: [
@@ -649,6 +653,32 @@ const nodeJSArray = {
   ],
 };
 
+const jsOOPArray = {
+  main: [
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming",
+      title: "Object-oriented programming (mozilla)",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+      title: "Standard built-in objects",
+    },
+  ],
+  expressions: [
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+      title: "Destructuring assignment",
+    },
+    {
+      url: "https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/",
+      title: "JavaScript Object Destructuring (freecodecamp)",
+    },
+    {
+      url: "https://stackoverflow.com/questions/54293147/destructuring-nested-objects-in-javascript-destructure-second-level-parent-and",
+      title: "Destructuring Nested objects in javascript",
+    },
+  ],
+};
 
 const etcArray = {
   stockImages: [
