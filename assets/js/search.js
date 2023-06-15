@@ -1,4 +1,4 @@
-// grab arrays from linkArrays.js and put them into a single array called arrays
+// grab arrays from linkArrays.js and put them into a single array called arrays 
 let arrays = [
     markdownArray,
     commandlineArray,
@@ -12,30 +12,31 @@ let arrays = [
     etcArray
 ]
 
-
+// function to get allTitles from the arrays in linkArrays
+// this function is currenlty not being used
 const getAllTitles = (arrays) => {
-
-    const matchedTitles = [];
+    // initiate empty array to push titles
+    const titles = [];
     // 
     arrays.forEach((array) => {
         // if the item is an array it will go through it and for each item, grab the title
         if (Array.isArray(array)) {
             array.forEach(item => {
                 if (item.hasOwnProperty("title")) {
-                    matchedTitles.push(item.title);
+                    titles.push(item.title);
                 }
             });
         } else if (typeof array === "object") {
             Object.values(array).forEach((subArray) => {
                 subArray.forEach((item) => {
                     if (item.hasOwnProperty("title")) {
-                        matchedTitles.push(item.title);
+                        titles.push(item.title);
                     }
                 });
             });
         }
     });
-    return matchedTitles;
+    return titles;
 }
 
 
@@ -66,7 +67,7 @@ const handleSearchButtonClick = (event) => {
     })
     
     console.log(nodeSearch) // check the console when you run a search
-    const allTitles = getAllTitles(arrays) // grabs all titles from the linkArray.js
+    // const allTitles = getAllTitles(arrays) // grabs all titles from the linkArray.js
 
 
     // const matchingTitles = allTitles.filter(title => searchWords.some(word => title.toLowerCase().includes(word.toLowerCase())))
