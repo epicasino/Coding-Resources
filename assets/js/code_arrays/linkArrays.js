@@ -8,6 +8,10 @@ const markdownArray = [
     title: "Professional Readme Guide",
   },
   {
+    url: "https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba#gnu-gpl-v3",
+    title: "Markdown License badges",
+  },
+  {
     url: "./assets/markdown/README-template.md",
     title: "Professional README Template",
   },
@@ -315,6 +319,10 @@ const jsArray = {
     {
       url: "https://www.w3schools.com/js/js_switch.asp",
       title: "switch statement",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/return",
+      title: "return statement",
     },
   ],
   jsOperators: [
@@ -650,6 +658,10 @@ const nodeJSArray = {
       url: "https://www.npmjs.com/package/inquirer",
       title: "Inquirer.js",
     },
+    {
+      url: "https://www.npmjs.com/package/axios?activeTab=readme",
+      title: "axios",
+    },
   ],
 };
 
@@ -676,6 +688,25 @@ const jsOOPArray = {
     {
       url: "https://stackoverflow.com/questions/54293147/destructuring-nested-objects-in-javascript-destructure-second-level-parent-and",
       title: "Destructuring Nested objects in javascript",
+    },
+  ],
+  inheritance: [
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor",
+      title: "Constructor expression",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions",
+      title: "Method definitions",
+    },
+    {
+      url: "https://www.w3schools.com/js/js_class_inheritance.asp",
+      title: "JavaScript Class Inheritance",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
+      title:
+        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
     },
   ],
 };
