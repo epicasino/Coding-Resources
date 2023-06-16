@@ -28,3 +28,10 @@ a, p {
 li {
   line-height: 2.5em;
 }
+
+#search-list {
+  position: absolute;
+  right: 1%;
+  top: 100%;
+  width: 20%;
+}
