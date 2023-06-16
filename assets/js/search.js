@@ -23,6 +23,8 @@ let arrays = [
     restfulApiArray,
     jQueryArray,
     cssFrameworkArray,
+    nodeJSArray,
+    jsOOPArray,
     etcArray
 ]
 
