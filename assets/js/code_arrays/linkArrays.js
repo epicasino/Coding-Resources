@@ -230,6 +230,11 @@ const jsArray = {
       url: "https://stackoverflow.com/questions/1349404/generate-random-string-characters-in-javascript",
       title: "Generate random string/characters in JavaScript",
     },
+    {
+      url: "https://codingbeautydev.com/blog/javascript-check-if-string-contains-uppercase-letters/",
+      title:
+        "How to Check if a String Contains Uppercase Letters in JavaScript",
+    },
   ],
   jsArrayList: [
     {
@@ -710,8 +715,17 @@ const jsOOPArray = {
     },
     {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
-      title:
-        "call() method",
+      title: "call() method",
+    },
+  ],
+  jest: [
+    {
+      url: "https://jestjs.io/docs/getting-started",
+      title: "Getting Started with Jest",
+    },
+    {
+      url: "https://devhints.io/jest",
+      title: "Jest cheatsheet",
     },
   ],
 };

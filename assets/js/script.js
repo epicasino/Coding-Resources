@@ -232,6 +232,7 @@ function oop() {
   const oopMainListEl = document.getElementById("oop-list");
   const oopExpressListEl = document.getElementById("oop-expressions-list");
   const oopInheritListEl = document.getElementById("oop-inheritance-list");
+  const oopJestListEl = document.getElementById("oop-jest-list");
 
   jsOOPArray.main.forEach((element) => {
     oopMainListEl.innerHTML += `
@@ -245,6 +246,11 @@ function oop() {
 
   jsOOPArray.inheritance.forEach((element) => {
     oopInheritListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  jsOOPArray.jest.forEach((element) => {
+    oopJestListEl.innerHTML += `
     <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
 }
@@ -271,19 +277,22 @@ function etcLinks() {
   });
 }
 
-markdown();
-commandline();
-html();
-css();
-js();
-webapi();
-restfulApi();
-jQueryList();
-cssFrameworks();
-etcLinks();
-nodeJS();
-oop();
+const functionArray = [
+  markdown(),
+  commandline(),
+  html(),
+  css(),
+  js(),
+  webapi(),
+  restfulApi(),
+  jQueryList(),
+  cssFrameworks(),
+  etcLinks(),
+  nodeJS(),
+  oop(),
+];
 
+functionArray.forEach(func => func);
 // boiler plate
 
 // array.forEach((element) => {
