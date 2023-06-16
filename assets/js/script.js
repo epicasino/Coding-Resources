@@ -205,6 +205,7 @@ function cssFrameworks() {
   });
 }
 
+// NodeJS JS
 function nodeJS() {
   const nodeJSListEl = document.querySelector("#nodejs-list");
   const nodeFSListEl = document.querySelector("#node-fs-list");
@@ -222,6 +223,28 @@ function nodeJS() {
 
   nodeJSArray.npm.forEach((element) => {
     nodeNPMListEL.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+}
+
+// OOP JS
+function oop() {
+  const oopMainListEl = document.getElementById("oop-list");
+  const oopExpressListEl = document.getElementById("oop-expressions-list");
+  const oopInheritListEl = document.getElementById("oop-inheritance-list");
+
+  jsOOPArray.main.forEach((element) => {
+    oopMainListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  jsOOPArray.expressions.forEach((element) => {
+    oopExpressListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  jsOOPArray.inheritance.forEach((element) => {
+    oopInheritListEl.innerHTML += `
     <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
 }
@@ -259,6 +282,7 @@ jQueryList();
 cssFrameworks();
 etcLinks();
 nodeJS();
+oop();
 
 // boiler plate
 

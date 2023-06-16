@@ -655,6 +655,11 @@ const nodeJSArray = {
       title: "An Absolute Beginner's Guide to Using npm",
     },
     {
+      url: "https://stackoverflow.com/questions/42197975/whats-the-difference-between-dev-save-and-save-dev-for-npm",
+      title:
+        "What's the difference between --dev, --save, and --save-dev for npm?",
+    },
+    {
       url: "https://www.npmjs.com/package/inquirer",
       title: "Inquirer.js",
     },
@@ -706,7 +711,7 @@ const jsOOPArray = {
     {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
       title:
-        "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
+        "call() method",
     },
   ],
 };
