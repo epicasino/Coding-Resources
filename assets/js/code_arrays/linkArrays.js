@@ -69,6 +69,10 @@ const htmlArray = [
     url: "https://www.delftstack.com/howto/html/html-code-block/",
     title: "Write a HTML Code Block",
   },
+  {
+    url: "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started",
+    title: "SVG: Getting started",
+  },
 ];
 
 const cssArray = {
@@ -297,6 +301,10 @@ const jsArray = {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce",
       title: "reduce() method",
     },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch",
+      title: "catch() method",
+    },
   ],
   jsWindow: [
     {
@@ -334,6 +342,10 @@ const jsArray = {
     {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment",
       title: "Increment (++)",
+    },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof",
+      title: "typeof operator",
     },
   ],
   jsDOM: [
@@ -685,6 +697,14 @@ const jsOOPArray = {
       url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
       title: "Standard built-in objects",
     },
+    {
+      url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+      title: "Promise Object",
+    },
+    {
+      url: "https://javascript.info/promise-chaining",
+      title: "Promise Chaining",
+    },
   ],
   expressions: [
     {
@@ -726,6 +746,10 @@ const jsOOPArray = {
     {
       url: "https://devhints.io/jest",
       title: "Jest cheatsheet",
+    },
+    {
+      url: "https://stackoverflow.com/questions/46042613/how-to-test-the-type-of-a-thrown-exception-in-jest",
+      title: "How to test the type of a thrown exception in Jest",
     },
   ],
 };
