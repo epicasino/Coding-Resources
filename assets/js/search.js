@@ -59,6 +59,7 @@ const getAllTitles = (arrays) => {
 // Retrieve the necessary DOM elements
 const searchForm = document.getElementById("search");
 let searchInput = document.getElementById("search-input");
+let searchList = document.getElementById("search-list");
 
 // main function
 const handleSearchButtonClick = (event) => {
@@ -70,8 +71,8 @@ const handleSearchButtonClick = (event) => {
     // console.log our array of searchWords
     console.log(searchWords)
 
-
-
+    // clears prior results
+    searchList.innerHTML = '';
 
     // grab all direct ul descendants of .card class and then grab any a tag below that
     const pageText = document.querySelectorAll(".card > ul a");
@@ -89,7 +90,21 @@ const handleSearchButtonClick = (event) => {
         }
     })
 
-    console.log(nodeSearch) // check the console when you run a search
+    console.log(nodeSearch); // check the console when you run a search  
+
+    // takes each matching node in array & creates elements inside #search-list with matching name & href
+    nodeSearch.forEach(node => {
+        const listItem = document.createElement('a');
+        listItem.setAttribute('href', node.href);
+        listItem.setAttribute('target', '_blank');
+        listItem.setAttribute(
+          "class",
+          "list-group-item list-group-item-action"
+        );
+        listItem.textContent = node.innerText;
+
+        searchList.appendChild(listItem);
+    });
 
     // second method --------------- again this might not even be needed since we can just grab the a nodes that match user input
     const allTitles = getAllTitles(arrays) // grabs all titles from the linkArray.js
@@ -110,11 +125,14 @@ const handleSearchButtonClick = (event) => {
         console.log(matchingTitles) // uncomment to use and see
     }
 
-}
+};
 
 
 // Event listener for search button click
 searchForm.addEventListener("submit", handleSearchButtonClick);
+
+// Event listener - results pop up when user starts typing
+searchForm.addEventListener("keyup", handleSearchButtonClick);
 
 // Event listener for Enter key press
 searchInput.addEventListener("keydown", (event) => {
