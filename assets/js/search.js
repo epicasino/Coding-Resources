@@ -25,6 +25,7 @@ let arrays = [
     cssFrameworkArray,
     nodeJSArray,
     jsOOPArray,
+    mySQLArray,
     etcArray
 ]
 

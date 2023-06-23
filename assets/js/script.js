@@ -255,6 +255,14 @@ function oop() {
   });
 }
 
+function mySQL() {
+  const mySQLMainListEl = document.querySelector("#mysql-main-list");
+
+  mySQLArray.main.forEach((element) => {
+    mySQLMainListEl.innerHTML += `<li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+}
+
 // Stock Images, Color Tools, Validator JS
 function etcLinks() {
   const stockImagesListEl = document.querySelector("#stock-images-list");
@@ -290,9 +298,10 @@ const functionArray = [
   etcLinks(),
   nodeJS(),
   oop(),
+  mySQL(),
 ];
 
-functionArray.forEach(func => func);
+functionArray.forEach((func) => func);
 // boiler plate
 
 // array.forEach((element) => {

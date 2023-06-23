@@ -754,6 +754,27 @@ const jsOOPArray = {
   ],
 };
 
+const mySQLArray = {
+  main: [
+    {
+      url: "https://www.w3schools.com/mysql/mysql_datatypes.asp",
+      title: "MySQL Data Types",
+    },
+    {
+      url: "https://www.w3schools.com/mysql/mysql_rdbms.asp",
+      title: "MySQL RDBMS",
+    },
+    {
+      url: "./assets/js/code_examples/sql-dog_db-example.txt",
+      title: "Code Example of creating mySQL DB & Tables",
+    },
+    {
+      url: "https://dev.mysql.com/doc/refman/8.0/en/comments.html#:~:text=In%20MySQL%2C%20the%20%2D%2D%20(double,the%20Start%20of%20a%20Comment%E2%80%9D",
+      title: "MySQL Comments",
+    },
+  ],
+};
+
 const etcArray = {
   stockImages: [
     {
