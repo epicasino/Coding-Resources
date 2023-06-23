@@ -255,11 +255,31 @@ function oop() {
   });
 }
 
+// MySQL JS
 function mySQL() {
   const mySQLMainListEl = document.querySelector("#mysql-main-list");
 
   mySQLArray.main.forEach((element) => {
     mySQLMainListEl.innerHTML += `<li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+}
+
+// ExpressJS JS
+function expressJS() {
+
+  const expressJSDocListEl = document.getElementById("expressJsDocList");
+  const expressJSFunctionsListEl = document.getElementById(
+    "expressJsFunctionsList"
+  );
+
+  expressJSArray.expressDocs.forEach((element) => {
+    expressJSDocListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  expressJSArray.expressJSFunctions.forEach((element) => {
+    expressJSFunctionsListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
 }
 
@@ -299,6 +319,7 @@ const functionArray = [
   nodeJS(),
   oop(),
   mySQL(),
+  expressJS(),
 ];
 
 functionArray.forEach((func) => func);

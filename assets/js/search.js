@@ -26,6 +26,7 @@ let arrays = [
     nodeJSArray,
     jsOOPArray,
     mySQLArray,
+    expressJSArray,
     etcArray
 ]
 
