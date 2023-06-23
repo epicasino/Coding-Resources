@@ -754,6 +754,69 @@ const jsOOPArray = {
   ],
 };
 
+const expressJSArray = {
+  expressDocs: [
+    {
+      url: "https://expressjs.com/",
+      title: "ExpressJS Home Page",
+    },
+    {
+      url: "https://expressjs.com/en/starter/hello-world.html",
+      title: "ExpressJS Hello World Example",
+    },
+    {
+      url: "https://expressjs.com/en/starter/basic-routing.html",
+      title: "Basic routing",
+    },
+    {
+      url: "https://expressjs.com/en/guide/using-middleware.html",
+      title: "Using Middleware",
+    },
+    {
+      url: "https://expressjs.com/en/starter/static-files.html",
+      title: "Static Files in Express (public folder dir)",
+    },
+    {
+      url: "https://expressjs.com/en/resources/middleware.html",
+      title: "Express middleware",
+    },
+    {
+      url: "https://expressjs.com/en/resources/middleware/body-parser.html",
+      title: "Express body-parser middleware",
+    },
+    {
+      url: "https://medium.com/@catherinelau/how-to-modularize-routes-with-the-express-router-5ce46f9bb2bd",
+      title: "How To Modularize Routes With The Express Router",
+    },
+    {
+      url: "https://expressjs.com/en/starter/examples.html",
+      title: "Express examples",
+    },
+  ],
+  expressJSFunctions: [
+    {
+      url: "https://stackoverflow.com/questions/4696283/what-are-res-and-req-parameters-in-express-functions",
+      title: `What are "res" and "req" parameters in Express functions? (Stack Overflow)`,
+    },
+    {
+      url: "https://www.geeksforgeeks.org/express-js-res-send-function/",
+      title: "res.send() Function",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/express-js-res-sendfile-function/",
+      title: "res.sendFile() Function",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/express-js-app-listen-function/",
+      title: "app.listen() Function",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/express-js-res-json-function/",
+      title: "res.json() Function",
+    },
+  ],
+};
+
 const mySQLArray = {
   main: [
     {
@@ -819,4 +882,3 @@ const etcArray = {
     },
   ],
 };
-
