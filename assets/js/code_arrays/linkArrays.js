@@ -172,6 +172,10 @@ const cssArray = {
       title: "Visibility Property",
     },
     {
+      url: "https://stackoverflow.com/questions/15907079/css3-transition-fade-out-effect",
+      title: "CSS3 Transition - Fade out effect (Stack Overflow)",
+    },
+    {
       url: "https://developer.mozilla.org/en-US/docs/Web/CSS/cursor",
       title: "cursor: pointer",
     },
@@ -238,6 +242,10 @@ const jsArray = {
       url: "https://codingbeautydev.com/blog/javascript-check-if-string-contains-uppercase-letters/",
       title:
         "How to Check if a String Contains Uppercase Letters in JavaScript",
+    },
+    {
+      url: "https://stackoverflow.com/questions/58213748/how-to-animate-scroll-to-top-javascript",
+      title: "How to Animate Scroll to Top JavaScript (Stack Overflow)",
     },
   ],
   jsArrayList: [
