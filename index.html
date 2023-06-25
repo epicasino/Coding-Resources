@@ -810,8 +810,12 @@
 
   <section id="corner-util-card">
     <div class="card">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item fs-4">Utilities</li>
+      <div class="card-header fs-4">
+        Utilities
+
+        <a type="button" id="close-corner-card" class="float-end text-body-secondary text-decoration-none">X</a>
+      </div>
+      <ul class="list-group list-group-flush" id="corner-card-list">
         <li class="list-group-item">
           <a class="nav-link fs-5" type="button" id="open-dropdowns" aria-expanded="false"
             aria-controls="collapseExample">Open Dropdowns</a>
@@ -830,8 +834,7 @@
 
   <!-- Own JS Script -->
   <script src="./assets/js/code_arrays/linkArrays.js"></script>
-  <script src="./assets/js/scrollTop.js"></script>
-  <script src="./assets/js/collapseButton.js"></script>
+  <script src="./assets/js/utilCard.js"></script>
   <script src="./assets/js/script.js"></script>
 
   <!-- ------------------------------- added jeff code ----------------------------------- -->

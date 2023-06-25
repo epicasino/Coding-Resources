@@ -34,3 +34,20 @@ const openAllDropdowns = () => {
 };
 
 openDropdownsBtn.addEventListener('click', openAllDropdowns);
+
+const scrollTopBtn = document.querySelector("#scroll-top");
+
+const scrollToTop = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
+
+scrollTopBtn.addEventListener("click", scrollToTop);
+
+const closeCornerCardBtn = document.getElementById("close-corner-card");
+const cornerCardListEl = document.getElementById("corner-util-card");
+
+const closeCard = () => {
+  cornerCardListEl.setAttribute('style', 'display:none');
+}
+
+closeCornerCardBtn.addEventListener('click', closeCard);
