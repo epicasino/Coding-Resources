@@ -47,7 +47,10 @@ const closeCornerCardBtn = document.getElementById("close-corner-card");
 const cornerCardListEl = document.getElementById("corner-util-card");
 
 const closeCard = () => {
-  cornerCardListEl.setAttribute('style', 'display:none');
+  cornerCardListEl.setAttribute(
+    "style",
+    "visibility: hidden; opacity: 0; transition: visibility 0s .25s, opacity 0.25s linear;"
+  );
 }
 
 closeCornerCardBtn.addEventListener('click', closeCard);
