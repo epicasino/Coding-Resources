@@ -258,9 +258,14 @@ function oop() {
 // MySQL JS
 function mySQL() {
   const mySQLMainListEl = document.querySelector("#mysql-main-list");
+  const mySqlSequelizeListEl = document.querySelector('#mysql-sequelize')
 
   mySQLArray.main.forEach((element) => {
     mySQLMainListEl.innerHTML += `<li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+  
+  mySQLArray.sequelize.forEach((element) => {
+    mySqlSequelizeListEl.innerHTML += `<li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
 }
 

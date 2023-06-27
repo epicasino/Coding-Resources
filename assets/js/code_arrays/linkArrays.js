@@ -843,6 +843,48 @@ const mySQLArray = {
       url: "https://dev.mysql.com/doc/refman/8.0/en/comments.html#:~:text=In%20MySQL%2C%20the%20%2D%2D%20(double,the%20Start%20of%20a%20Comment%E2%80%9D",
       title: "MySQL Comments",
     },
+    {
+      url: "https://dev.mysql.com/doc/refman/8.0/en/sql-prepared-statements.html",
+      title: "SQL Prepared Statements",
+    },
+    {
+      url: "https://dev.mysql.com/doc/mysql-tutorial-excerpt/5.7/en/example-foreign-keys.html",
+      title: "SQL Foreign Keys",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/node-js-mysql-insert-into-table/",
+      title: "SQL Insert Into Table",
+    },
+    {
+      url: "https://www.w3schools.com/SQL/sql_ref_set.asp",
+      title: "SQL Ref Set",
+    },
+    {
+      url: "https://www.w3schools.com/mysql/mysql_insert.asp",
+      title: "SQL Insert",
+    },
+  ],
+  sequelize: [
+    {
+      url: "https://sequelize.org/docs/v6/getting-started/",
+      title: "Sequelize Getting Started",
+    },
+    {
+      url: "https://sequelize.org/docs/v6/core-concepts/model-querying-basics/",
+      title: "Model Querying - Basics",
+    },
+    {
+      url: "https://sequelize.org/docs/v6/other-topics/naming-strategies/",
+      title: "Sequelize Naming Strategies",
+    },
+    {
+      url: "https://devhints.io/sequelize",
+      title: "Devhints Sequelize",
+    },
+    {
+      url: "https://stackoverflow.com/questions/53848784/sequelize-query-singular-instead-of-plural-table-name",
+      title: "Sequelize query singular instead of plural table name",
+    },
   ],
 };
 
