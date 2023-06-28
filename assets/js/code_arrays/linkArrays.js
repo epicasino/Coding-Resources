@@ -689,6 +689,10 @@ const nodeJSArray = {
       title: "Inquirer.js",
     },
     {
+      url: "https://www.digitalocean.com/community/tutorials/nodejs-interactive-command-line-prompts",
+      title: " Interactive Command-line Prompts with Inquirer.js",
+    },
+    {
       url: "https://www.npmjs.com/package/axios?activeTab=readme",
       title: "axios",
     },
@@ -861,7 +865,23 @@ const mySQLArray = {
     },
     {
       url: "https://www.w3schools.com/mysql/mysql_insert.asp",
-      title: "SQL Insert",
+      title: "SQL INSERT INTO",
+    },
+    {
+      url: "https://www.w3schools.com/Sql/func_mysql_concat.asp",
+      title: "SQL CONCAT() Function",
+    },
+    {
+      url: "https://www.w3schools.com/mysql/mysql_update.asp",
+      title: "MySQL UPDATE Statement",
+    },
+    {
+      url: "https://www.w3schools.com/mysql/mysql_and_or.asp",
+      title: "MySQL Operators",
+    },
+    {
+      url: "https://stackoverflow.com/questions/36682736/select-specific-rows-and-columns-from-an-sql-database",
+      title: "Select specific rows and columns from an SQL database",
     },
   ],
   sequelize: [
