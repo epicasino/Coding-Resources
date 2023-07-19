@@ -258,12 +258,12 @@ function oop() {
 // MySQL JS
 function mySQL() {
   const mySQLMainListEl = document.querySelector("#mysql-main-list");
-  const mySqlSequelizeListEl = document.querySelector('#mysql-sequelize')
+  const mySqlSequelizeListEl = document.querySelector("#mysql-sequelize");
 
   mySQLArray.main.forEach((element) => {
     mySQLMainListEl.innerHTML += `<li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
-  
+
   mySQLArray.sequelize.forEach((element) => {
     mySqlSequelizeListEl.innerHTML += `<li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
@@ -271,7 +271,6 @@ function mySQL() {
 
 // ExpressJS JS
 function expressJS() {
-
   const expressJSDocListEl = document.getElementById("expressJsDocList");
   const expressJSFunctionsListEl = document.getElementById(
     "expressJsFunctionsList"
@@ -284,6 +283,21 @@ function expressJS() {
 
   expressJSArray.expressJSFunctions.forEach((element) => {
     expressJSFunctionsListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+}
+
+function mongoDBLink() {
+  const mainMongoDBListEl = document.getElementById("mongoDB-list");
+  const mongooseListEl = document.getElementById("mongoose-list");
+
+  mongoDBArray.mongodb.forEach((element) => {
+    mainMongoDBListEl.innerHTML += `
+    <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
+  });
+
+  mongoDBArray.mongoose.forEach((element) => {
+    mongooseListEl.innerHTML += `
     <li><a href='${element.url}' target='_blank'>${element.title}</a></li>`;
   });
 }
@@ -325,6 +339,7 @@ const functionArray = [
   oop(),
   mySQL(),
   expressJS(),
+  mongoDBLink(),
 ];
 
 functionArray.forEach((func) => func);

@@ -908,6 +908,41 @@ const mySQLArray = {
   ],
 };
 
+const mongoDBArray = {
+  mongodb: [
+    {
+      url: "https://www.mongodb.com/docs/manual/introduction/",
+      title: "Introduction to MongoDB",
+    },
+    {
+      url: "https://www.mongodb.com/docs/mongodb-shell/",
+      title: "MongoDB Shell (mongosh)",
+    },
+    {
+      url: "https://www.mongodb.com/docs/manual/crud/",
+      title: "MongoDB CRUD Operations",
+    },
+  ],
+  mongoose: [
+    {
+      url: "https://mongoosejs.com/docs/index.html",
+      title: "Mongoose: Getting Started",
+    },
+    {
+      url: "https://mongoosejs.com/docs/guides.html",
+      title: "Mongoose: Guides Overview",
+    },
+    {
+      url: "https://mongoosejs.com/docs/guide.html",
+      title: "Mongoose Schemas",
+    },
+    {
+      url: "https://mongoosejs.com/docs/models.html",
+      title: "Mongoose Models",
+    },
+  ],
+};
+
 const etcArray = {
   stockImages: [
     {
