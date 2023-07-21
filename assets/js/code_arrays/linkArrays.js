@@ -923,6 +923,10 @@ const mongoDBArray = {
       title: "MongoDB CRUD Operations",
     },
     {
+      url: "https://www.mongodb.com/docs/mongodb-shell/crud/update/#std-label-mongosh-update",
+      title: "Update Documents",
+    },
+    {
       url: "https://www.mongodb.com/docs/manual/aggregation/",
       title: "Aggregation Operations",
     },
@@ -937,6 +941,10 @@ const mongoDBArray = {
     {
       url: "https://www.mongodb.com/docs/manual/reference/operator/update/addToSet/",
       title: "$addToSet (operator)",
+    },
+    {
+      url: "https://www.mongodb.com/docs/manual/reference/operator/update/pull/",
+      title: "$pull (operator)",
     },
   ],
   mongoose: [
@@ -973,12 +981,32 @@ const mongoDBArray = {
       title: "Mongoose Populate",
     },
     {
+      url: "https://www.geeksforgeeks.org/mongoose-findone-function/",
+      title: "Mongoose | findByIdAndUpdate() Function",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/mongoose-findbyidandupdate-function/",
+      title: "Mongoose | findByIdAndUpdate() Function",
+    },
+    {
       url: "https://mongoosejs.com/docs/tutorials/findoneandupdate.html",
       title: "How to Use findOneAndUpdate() in Mongoose",
     },
     {
+      url: "https://www.geeksforgeeks.org/mongoose-deletemany-function/",
+      title: "Mongoose | deleteMany() Function",
+    },
+    {
       url: "https://stackoverflow.com/questions/33049707/push-items-into-mongo-array-via-mongoose",
       title: "Push items into mongo array via mongoose (StackOverflow)",
+    },
+    {
+      url: "https://stackoverflow.com/questions/18553946/remove-sub-document-from-mongo-with-mongoose",
+      title: "Remove sub-document from Mongo with mongoose (StackOverflow)",
+    },
+    {
+      url: "https://stackoverflow.com/questions/12495891/what-is-the-v-field-in-mongoose",
+      title: `What is the __v field in Mongoose (StackOverflow)`,
     },
   ],
 };
