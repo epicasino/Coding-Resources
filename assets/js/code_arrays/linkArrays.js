@@ -922,6 +922,22 @@ const mongoDBArray = {
       url: "https://www.mongodb.com/docs/manual/crud/",
       title: "MongoDB CRUD Operations",
     },
+    {
+      url: "https://www.mongodb.com/docs/manual/aggregation/",
+      title: "Aggregation Operations",
+    },
+    {
+      url: "https://www.mongodb.com/docs/manual/reference/operator/update/positional/",
+      title: "$ (update)",
+    },
+    {
+      url: "https://www.mongodb.com/docs/manual/reference/operator/aggregation/count/",
+      title: "$count (aggregation)",
+    },
+    {
+      url: "https://www.mongodb.com/docs/manual/reference/operator/update/addToSet/",
+      title: "$addToSet (operator)",
+    },
   ],
   mongoose: [
     {
@@ -937,8 +953,32 @@ const mongoDBArray = {
       title: "Mongoose Schemas",
     },
     {
+      url: "https://mongoosejs.com/docs/schematypes.html",
+      title: "Mongoose SchemaTypes",
+    },
+    {
       url: "https://mongoosejs.com/docs/models.html",
       title: "Mongoose Models",
+    },
+    {
+      url: "https://www.geeksforgeeks.org/mongoose-virtuals/",
+      title: "Mongoose Virtuals",
+    },
+    {
+      url: "https://masteringjs.io/tutorials/mongoose/timestamps",
+      title: "Mongoose Timestamps",
+    },
+    {
+      url: "https://mongoosejs.com/docs/populate.html",
+      title: "Mongoose Populate",
+    },
+    {
+      url: "https://mongoosejs.com/docs/tutorials/findoneandupdate.html",
+      title: "How to Use findOneAndUpdate() in Mongoose",
+    },
+    {
+      url: "https://stackoverflow.com/questions/33049707/push-items-into-mongo-array-via-mongoose",
+      title: "Push items into mongo array via mongoose (StackOverflow)",
     },
   ],
 };
