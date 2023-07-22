@@ -943,6 +943,10 @@ const mongoDBArray = {
       title: "$addToSet (operator)",
     },
     {
+      url: "https://www.mongodb.com/docs/manual/reference/operator/update/push/",
+      title: "$push (operator)",
+    },
+    {
       url: "https://www.mongodb.com/docs/manual/reference/operator/update/pull/",
       title: "$pull (operator)",
     },
