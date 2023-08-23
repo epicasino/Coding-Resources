@@ -34,12 +34,12 @@
       "title": "CSS Reset Files",
       "links": [
         {
-          "url": "./assets/css/ucsdreset.css",
+          "url": "./examples/css/reset/ucsd",
           "title": "UCSD reset.css file"
         },
         {
-          "url": "./assets/css/meyerwebreset.css",
-          "title": "meyerweb reset.css file"
+          "url": "./examples/css/reset/meyerweb",
+          "title": "Meyerweb reset.css file"
         }
       ]
     },
