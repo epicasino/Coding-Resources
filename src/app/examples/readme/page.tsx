@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import NavbarComponent from '@/app/components/NavbarComponent';
+import NavbarComponent from '@/app/components/navbar/NavbarComponent';
 
 export default function page() {
   return (

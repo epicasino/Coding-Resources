@@ -1,19 +1,19 @@
 'use client';
 
-import NavbarComponent from './components/NavbarComponent';
+import NavbarComponent from './components/navbar/NavbarComponent';
 import { Container } from 'react-bootstrap';
 
 import SectionCollapse from './components/sections/SectionCollapse';
 import SubsectionCollapse from './components/sections/subsections/SubsectionCollapse';
 
 import allLinks from './resourceLinks/allLinks';
+import Footer from './components/footer/Footer';
 
 export default function Home() {
-
   return (
     <>
       <NavbarComponent />
-      <main className='pt-5 mt-5'>
+      <main className="pt-5 mt-5">
         <Container fluid className="p-5">
           <h2 className="text-center text-white">
             Hello friends! Feel free to use this GitPages website to access
@@ -34,6 +34,7 @@ export default function Home() {
           )}
         </Container>
       </main>
+      <Footer />
     </>
   );
 }
