@@ -5,8 +5,13 @@ import SubsectionCard from './SubsectionCard';
 
 interface iLinks {
   title: String;
-  links?: Array<object>;
-  subsections?: Array<object>;
+  links?: Array<iResource>;
+  subsections?: Array<iResource>;
+}
+
+interface iResource {
+  title: string;
+  url: string;
 }
 
 export default function SubsectionCollapse({
@@ -31,7 +36,7 @@ export default function SubsectionCollapse({
         <div>
           <Card className="border rounded px-3 py-4 my-2">
             <>
-              {resources.subsections.map((element) => (
+              {resources?.subsections?.map((element) => (
                 <SubsectionCard key={element.title} resources={element}/>
               ))}
             </>

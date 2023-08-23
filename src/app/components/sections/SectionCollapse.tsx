@@ -4,8 +4,13 @@ import styles from './css/sectionCollapse.module.css';
 
 interface iLinks {
   title: String;
-  links?: Array<object>;
+  links?: Array<iResource>;
   subsections?: Array<object>;
+}
+
+interface iResource {
+  title: string;
+  url: string;
 }
 
 export default function SectionCollapse({ resources }: { resources: iLinks }) {
@@ -26,9 +31,14 @@ export default function SectionCollapse({ resources }: { resources: iLinks }) {
         <div>
           <Card className="border rounded px-3 py-4 my-2">
             <ul>
-              {resources.links.map((element) => (
+              {resources?.links?.map((element) => (
                 <li key={element.title} className="my-2">
-                  <a href={element.url} target='_blank' rel='noreferrer' className="text-body fs-5">
+                  <a
+                    href={element.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-body fs-5"
+                  >
                     {element.title}
                   </a>
                 </li>
