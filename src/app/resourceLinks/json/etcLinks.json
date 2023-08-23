@@ -2,6 +2,19 @@
   "title": "Extra Tools",
   "subsections": [
     {
+      "title": "Icons",
+      "links": [
+        {
+          "url": "https://iconbuddy.app/svg-icons",
+          "title": "Iconbuddy"
+        },
+        {
+          "url": "https://primer.style/design/foundations/icons/",
+          "title": "Octicons: GitHub Primer"
+        }
+      ]
+    },
+    {
       "title": "Stock Images",
       "links": [
         {
