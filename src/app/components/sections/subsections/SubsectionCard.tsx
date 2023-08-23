@@ -3,7 +3,7 @@ import { Collapse, Card } from 'react-bootstrap';
 import styles from '../css/sectionCollapse.module.css'
 
 interface iLinks {
-  title: String;
+  title: string;
   links?: Array<iResource>;
   subsections?: Array<object>;
 }

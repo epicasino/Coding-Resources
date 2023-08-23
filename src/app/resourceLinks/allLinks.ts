@@ -14,8 +14,7 @@ import mysqlLinks from './json/mysqlLinks.json';
 import mongodbLinks from './json/mongodbLinks.json';
 import etcLinks from './json/etcLinks.json';
 
-
-const allLinks = [
+const allLinks: any = [
   mdLinks,
   cliLinks,
   htmlLinks,

@@ -4,7 +4,7 @@ import styles from '../css/sectionCollapse.module.css';
 import SubsectionCard from './SubsectionCard';
 
 interface iLinks {
-  title: String;
+  title: string;
   links?: Array<iResource>;
   subsections?: Array<iResource>;
 }

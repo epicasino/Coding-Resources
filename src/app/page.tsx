@@ -9,6 +9,17 @@ import SubsectionCollapse from './components/sections/subsections/SubsectionColl
 import allLinks from './resourceLinks/allLinks';
 import Footer from './components/footer/Footer';
 
+interface iLinks {
+  title: string;
+  links?: Array<iResource>;
+  subsections?: Array<iResource>;
+}
+
+interface iResource {
+  title: string;
+  url: string;
+}
+
 export default function Home() {
   return (
     <>
@@ -23,7 +34,7 @@ export default function Home() {
         </Container>
         {/* This is where dropdowns will go */}
         <Container fluid>
-          {allLinks.map((resource) =>
+          {allLinks.map((resource: iLinks) =>
             resource.links ? (
               <SectionCollapse key={resource.title} resources={resource} />
             ) : resource.subsections ? (
