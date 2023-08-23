@@ -2,6 +2,7 @@
 
 import React from 'react';
 import NavbarComponent from '@/app/components/navbar/NavbarComponent';
+import Footer from '@/app/components/footer/Footer';
 
 export default function page() {
   return (
@@ -123,6 +124,7 @@ export default function page() {
           </p>
         </section>
       </main>
+      <Footer />
     </>
   );
 }
