@@ -74,6 +74,10 @@
           "title": "Spread Syntax ES6"
         },
         {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter",
+          "title": "Array.prototype.filter()"
+        },
+        {
           "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some",
           "title": "Array.prototype.some()"
         }

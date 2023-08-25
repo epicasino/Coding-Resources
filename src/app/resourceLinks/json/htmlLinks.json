@@ -42,6 +42,14 @@
       "title": "Write a HTML Code Block"
     },
     {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
+      "title": "<pre>: Preformatted Text element"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code",
+      "title": "<code>: Inline code element"
+    },
+    {
       "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started",
       "title": "SVG: Getting started"
     }
