@@ -1,6 +1,9 @@
 # Coding Resources
 
 ![License Badge](https://img.shields.io/github/license/epicasino/Coding-Resources)
+![Static Badge](https://img.shields.io/badge/Deployment-Vercel-blue?link=https%3A%2F%2Fcoding-resources.vercel.app%2F)
+![GitHub top language](https://img.shields.io/github/languages/top/epicasino/coding-resources)
+![GitHub deployments](https://img.shields.io/github/deployments/epicasino/coding-resources/Production?label=deployment)
 
 ## Description
 
