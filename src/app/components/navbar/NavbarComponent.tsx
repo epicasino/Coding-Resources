@@ -7,8 +7,36 @@ import {
   Col,
   Button,
 } from 'react-bootstrap';
+import { useEffect, useState } from 'react';
+import { pureLinksArray } from '@/app/resourceLinks/allLinks';
+
+interface iSubSectionLinkArray {
+  title: string;
+  url: string;
+}
 
 export default function NavbarComponent() {
+  const [query, setQuery] = useState('');
+
+  useEffect(() => {
+    handleSearch(query)
+  }, [query])
+
+  const handleSearch = (query: string) => {
+
+    // console.log(query);
+
+    const result = pureLinksArray.filter((link: iSubSectionLinkArray) => {
+      if (query === '') {
+        return '';
+      } else if (link.title.toLowerCase().includes(query.toLowerCase())) {
+        return link;
+      }
+    });
+
+    // console.log(result);
+  };
+
   return (
     <>
       <Navbar
@@ -16,11 +44,13 @@ export default function NavbarComponent() {
         className="bg-body-tertiary p-3 justify-content-between align-items-center fixed-top"
       >
         <Navbar.Brand>
-          <a href="/" className='text-decoration-none text-light fs-3'>Coding Resources</a>
+          <a href="/" className="text-decoration-none text-light fs-3">
+            Coding Resources
+          </a>
         </Navbar.Brand>
         <Navbar.Collapse>
           <Nav>
-            <NavDropdown title="Sections" className='fs-4'>
+            <NavDropdown title="Sections" className="fs-4">
               {/* Add map function for different sections */}
               <NavDropdown.Item>Hi</NavDropdown.Item>
             </NavDropdown>
@@ -30,7 +60,11 @@ export default function NavbarComponent() {
         <Form>
           <Row>
             <Col xs="auto" className="p-0">
-              <Form.Control type="text" placeholder="Search" />
+              <Form.Control
+                type="text"
+                placeholder="Search"
+                onChange={(e) => setQuery(e.target.value)}
+              />
             </Col>
             <Col xs="auto">
               <Button type="submit" variant="outline-success">

@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 import SectionCollapse from './components/sections/SectionCollapse';
 import SubsectionCollapse from './components/sections/subsections/SubsectionCollapse';
 
-import allLinks from './resourceLinks/allLinks';
+import { allLinks } from './resourceLinks/allLinks';
 import Footer from './components/footer/Footer';
 
 interface iLinks {
