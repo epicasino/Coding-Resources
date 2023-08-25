@@ -1,4 +1,4 @@
-# Coding Resources
+# [Coding Resources](https://coding-resources.vercel.app/)
 
 ![Static Badge](https://img.shields.io/badge/Deployment-Vercel-blue?link=https%3A%2F%2Fcoding-resources.vercel.app%2F)
 ![GitHub top language](https://img.shields.io/github/languages/top/epicasino/coding-resources)
@@ -24,7 +24,7 @@ No installation is needed. Access via [Vercel](https://coding-resources.vercel.a
 
 ## Credits
 
-**Thank you Jeff for helping out with the search function!**
+**Thank you Jeff for helping out with the search function!** (Version v1)
 
 - [GitHub Profile: jpatterson933](https://github.com/jpatterson933)
 
