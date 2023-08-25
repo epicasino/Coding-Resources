@@ -7,17 +7,18 @@
 - Google is our friend, and provides many resources and answers we need in a short amount of time, but sometimes we need a place where we can consolidate our resources into a single webpage.
 - I made a simple coding resources website for the average programmer to quickly scroll and find the resource/documentation they need for a specific section in their code.
 - Now, all of the resources I need can be seen in one simple website.
+- Built in NextJS, deployed with Vercel.
 
 ## Features
 
 - A 'Sections' dropdown with all main resource sections to quickly select a topic.
 - Search bar feature to make resources more readily available.
-- A 'Open Dropdowns' button to open all resource sections at once.
-- A 'Scroll to Top' button to make site navigation easier.
+- ~~A 'Open Dropdowns' button to open all resource sections at once.~~ (Currently in progress for NextJS!)
+- ~~A 'Scroll to Top' button to make site navigation easier.~~ (Currently in progress for NextJS!)
 
 ## Installation
 
-No installation is needed. Access via [Gitpages](https://epicasino.github.io/Coding-Resources/) link.
+No installation is needed. Access via [Vercel](https://coding-resources.vercel.app/) link.
 
 ## Credits
 
