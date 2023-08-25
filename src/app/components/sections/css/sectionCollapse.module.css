@@ -1,0 +1,15 @@
+.dropdown {
+  padding: 1.5rem;
+  background: none;
+  text-decoration: underline;
+  border: 0;
+  color: #ced4da;
+}
+
+.dropdown:hover {
+  background: none;
+  border: 0;
+  color: #dee2e6;
+}
+
+/* #6c757d; */

@@ -1,7 +1,6 @@
 # Coding Resources
 
-![License Badge](https://img.shields.io/github/license/epicasino/Coding-Resources
-)
+![License Badge](https://img.shields.io/github/license/epicasino/Coding-Resources)
 
 ## Description
 

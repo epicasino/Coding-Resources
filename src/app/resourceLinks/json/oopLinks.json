@@ -1,0 +1,81 @@
+{
+  "title": "OOP",
+  "subsections": [
+    {
+      "title": "Main",
+      "links": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming",
+          "title": "Object-oriented programming (mozilla)"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects",
+          "title": "Standard built-in objects"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+          "title": "Promise Object"
+        },
+        {
+          "url": "https://javascript.info/promise-chaining",
+          "title": "Promise Chaining"
+        }
+      ]
+    },
+    {
+      "title": "Expressions",
+      "links": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+          "title": "Destructuring assignment"
+        },
+        {
+          "url": "https://www.freecodecamp.org/news/javascript-object-destructuring-spread-operator-rest-parameter/",
+          "title": "JavaScript Object Destructuring (freecodecamp)"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/54293147/destructuring-nested-objects-in-javascript-destructure-second-level-parent-and",
+          "title": "Destructuring Nested objects in javascript"
+        }
+      ]
+    },
+    {
+      "title": "Inheritance",
+      "links": [
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/constructor",
+          "title": "Constructor expression"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Method_definitions",
+          "title": "Method definitions"
+        },
+        {
+          "url": "https://www.w3schools.com/js/js_class_inheritance.asp",
+          "title": "JavaScript Class Inheritance"
+        },
+        {
+          "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/call",
+          "title": "call() method"
+        }
+      ]
+    },
+    {
+      "title": "Jest",
+      "links": [
+        {
+          "url": "https://jestjs.io/docs/getting-started",
+          "title": "Getting Started with Jest"
+        },
+        {
+          "url": "https://devhints.io/jest",
+          "title": "Jest cheatsheet"
+        },
+        {
+          "url": "https://stackoverflow.com/questions/46042613/how-to-test-the-type-of-a-thrown-exception-in-jest",
+          "title": "How to test the type of a thrown exception in Jest"
+        }
+      ]
+    }
+  ]
+}

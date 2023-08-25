@@ -1,0 +1,57 @@
+{
+  "title": "HTML",
+  "links": [
+    {
+      "url": "https://www.w3schools.com/html/html_blocks.asp",
+      "title": "HTML Block & Inline elements"
+    },
+    {
+      "url": "https://web.dev/learn/html/semantic-html/",
+      "title": "Semantic HTML"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/figcaption",
+      "title": "Figure Caption Tag"
+    },
+    {
+      "url": "https://www.w3schools.com/html/html_forms.asp",
+      "title": "HTML Forms Tag"
+    },
+    {
+      "url": "https://www.delftstack.com/howto/html/html-code-block/",
+      "title": "HTML Code Block"
+    },
+    {
+      "url": "https://www.w3schools.com/tags/tag_button.asp",
+      "title": "&lt;button&gt; tag"
+    },
+    {
+      "url": "https://www.w3schools.com/TAGS/att_script_src.asp",
+      "title": "script attribute for JS"
+    },
+    {
+      "url": "https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/",
+      "title": "div vs span tags"
+    },
+    {
+      "url": "https://www.w3schools.com/tags/tag_input.asp",
+      "title": "HTML input tag"
+    },
+    {
+      "url": "https://www.delftstack.com/howto/html/html-code-block/",
+      "title": "Write a HTML Code Block"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/pre",
+      "title": "<pre>: Preformatted Text element"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/code",
+      "title": "<code>: Inline code element"
+    },
+    {
+      "url": "https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Getting_Started",
+      "title": "SVG: Getting started"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "title": "Markdown",
+  "links": [
+    {
+      "url": "https://www.markdownguide.org/basic-syntax",
+      "title": "Basic Markdown Syntax"
+    },
+    {
+      "url": "https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide",
+      "title": "Professional Readme Guide"
+    },
+    {
+      "url": "https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba#gnu-gpl-v3",
+      "title": "Markdown License badges"
+    },
+    {
+      "url": "/examples/markdown/readme",
+      "title": "Professional README Template"
+    }
+  ]
+}
