@@ -8,7 +8,7 @@ export default function page() {
   return (
     <>
       <NavbarComponent />
-      <main className="pt-5 m-5">
+      <main className="pt-3">
         <h1 className="pt-5 my-2 text-center">UCSD RESET FILE</h1>
         <pre>
           {`

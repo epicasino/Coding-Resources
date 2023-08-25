@@ -24,6 +24,7 @@ export default function SectionCollapse({ resources }: { resources: iLinks }) {
         onClick={() => setSectionOpen(!sectionOpen)}
         aria-controls="section"
         className={styles.dropdown}
+        id={resources.title.split(' ').join('')}
       >
         <h2>{resources.title}</h2>
       </button>

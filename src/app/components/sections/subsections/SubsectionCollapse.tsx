@@ -29,6 +29,7 @@ export default function SubsectionCollapse({
         onClick={() => setSectionOpen(!sectionOpen)}
         aria-controls="section"
         className={styles.dropdown}
+        id={resources.title.split(' ').join('')}
       >
         <h2>{resources.title}</h2>
       </button>
@@ -37,7 +38,7 @@ export default function SubsectionCollapse({
           <Card className="border rounded px-3 py-4 my-2">
             <>
               {resources?.subsections?.map((element) => (
-                <SubsectionCard key={element.title} resources={element}/>
+                <SubsectionCard key={element.title} resources={element} />
               ))}
             </>
           </Card>

@@ -8,11 +8,19 @@ export default function page() {
   return (
     <>
       <NavbarComponent />
-      <main className="pt-5 mt-5">
-        <header>
-          <h1 className="text-center py-5 text-decoration-underline">
+      <main className="pt-3">
+        <header className="d-flex flex-column justify-content-center">
+          <h1 className="text-center pt-5 text-decoration-underline">
             README Template
           </h1>
+          <small className="text-center">
+            <a
+              href="https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide"
+              className="text-body"
+            >
+              Link to source
+            </a>
+          </small>
         </header>
         <section className="p-4">
           <h1 id="-your-project-title"># Your-Project-Title</h1>

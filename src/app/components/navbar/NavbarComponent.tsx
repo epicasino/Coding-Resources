@@ -8,7 +8,11 @@ import {
   Button,
 } from 'react-bootstrap';
 import { useEffect, useState } from 'react';
-import { pureLinksArray } from '@/app/resourceLinks/allLinks';
+import { pureLinksArray, allLinks } from '@/app/resourceLinks/allLinks';
+
+interface iLinks {
+  title: string;
+}
 
 interface iSubSectionLinkArray {
   title: string;
@@ -19,11 +23,10 @@ export default function NavbarComponent() {
   const [query, setQuery] = useState('');
 
   useEffect(() => {
-    handleSearch(query)
-  }, [query])
+    handleSearch(query);
+  }, [query]);
 
   const handleSearch = (query: string) => {
-
     // console.log(query);
 
     const result = pureLinksArray.filter((link: iSubSectionLinkArray) => {
@@ -41,7 +44,7 @@ export default function NavbarComponent() {
     <>
       <Navbar
         expand="lg"
-        className="bg-body-tertiary p-3 justify-content-between align-items-center fixed-top"
+        className="bg-body-tertiary p-3 justify-content-between align-items-center"
       >
         <Navbar.Brand>
           <a href="/" className="text-decoration-none text-light fs-3">
@@ -52,7 +55,9 @@ export default function NavbarComponent() {
           <Nav>
             <NavDropdown title="Sections" className="fs-4">
               {/* Add map function for different sections */}
-              <NavDropdown.Item>Hi</NavDropdown.Item>
+              {allLinks.map((link: iLinks) => (
+                <NavDropdown.Item key={link.title} href={`#${link.title.split(' ').join('')}`}>{link.title}</NavDropdown.Item>
+              ))}
             </NavDropdown>
           </Nav>
         </Navbar.Collapse>

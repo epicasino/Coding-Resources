@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <>
       <NavbarComponent />
-      <main className="pt-5 mt-5">
+      <main className="pt-3">
         <Container fluid className="p-5">
           <h2 className="text-center text-white">
             Hello friends! Feel free to use this GitPages website to access
