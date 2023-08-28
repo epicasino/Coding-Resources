@@ -47,3 +47,8 @@ li {
   margin: 1rem;
   width: 18rem;
 }
+
+#migration-alert {
+  margin-top: 1rem;
+  top: 5rem;
+}
